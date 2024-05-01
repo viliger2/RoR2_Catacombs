@@ -1,0 +1,10 @@
+{
+	"strings": {
+		"CATACOMBS_MAP_DS1_CATACOMBS_NAME": "Catacombs",
+		"CATACOMBS_MAP_DS1_CATACOMBS_SUBTITLE": "Lemurian Burial Ground",
+		"CATACOMBS_BAZAAR_SEER_DS1_CATACOMBS": "<style=cWorldEvent>You dream of eternal slumber.</style>",
+		"CATACOMBS_MAP_DS1_CATACOMBS_LORE": "Next on the list - wheel skeletons.",
+
+		"UNLOCKABLE_LOG_MAP_DS1CATACOMBS": "Environment Log: Catacombs"
+	}
+}

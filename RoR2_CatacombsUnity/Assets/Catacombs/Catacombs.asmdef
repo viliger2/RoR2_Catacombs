@@ -1,0 +1,34 @@
+{
+    "name": "Catacombs",
+    "references": [
+        "GUID:a44f47cf3ada4435dbc516bad0bc86fe",
+        "GUID:d9adbb5bf5c9f674ebb7cc66c27c9083"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "BepInEx.dll",
+        "MonoMod.Utils.dll",
+        "Mono.Cecil.dll",
+        "HGCSharpUtils.dll",
+        "HGUnityUtils.dll",
+        "KinematicCharacterController.dll",
+        "MMHOOK_RoR2.dll",
+        "LegacyResourcesAPI.dll",
+        "Unity.Addressables.dll",
+        "UnityEngine.UI.dll",
+        "Unity.TextMeshPro.dll",
+        "RoR2.dll",
+        "Unity.ResourceManager.dll",
+        "R2API.Stages.dll",
+        "R2API.Addressables.dll",
+        "R2API.Director.dll",
+        "R2API.Sound.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

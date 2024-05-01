@@ -1,0 +1,656 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 610d6b27a690cef4b8601af6018f3a5b, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 3d542b050c5bd84f835a80ec75f7c021
+    GuidInternal: 
+    m_lastTime: -8584876419780222468
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: c5b6694ecdf04845b9cc5337e4abe66b
+    GuidInternal: 
+    m_lastTime: -8584876419780496981
+    List:
+    - name: HDR
+      guid: c9cae652b403634383a3cf3e7da43614
+      id: 931844945
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: SFX_BUS
+        ObjectType: 2
+      - ElementName: HDR
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\SFX_BUS\HDR
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+    - name: Master Secondary Bus
+      guid: c6b9f92af16ee946b5f2e30c9e602c74
+      id: 805203703
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Secondary Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Secondary Bus
+    - name: MSX_BEACON
+      guid: 253053a638627b4eac66da32c07b0c0e
+      id: 2060036974
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: MSX_BEACON
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\MSX_BEACON
+    - name: MSX_BUS
+      guid: 1df713a6040e504581c7d619012d53e3
+      id: 2893081552
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: MSX_BUS
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\MSX_BUS
+    - name: SFX_BUS
+      guid: 625cc09924b7e74eb7b2314f537c90bc
+      id: 213475909
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: SFX_BUS
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\SFX_BUS
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 69bd900c8b038a4fbbd9b3f31ad09cc4
+    GuidInternal: 
+    m_lastTime: -8584870386886403451
+    List:
+    - name: DS1CatacombsMusic
+      guid: 86a85940e42d8444a6be09a5d5db8835
+      id: 727108665
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DS1CatacombsMusic
+        ObjectType: 7
+      Path: Default Work Unit\DS1CatacombsMusic
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 94e26b68af1eec4e8e171b0ae9efe044
+    GuidInternal: 
+    m_lastTime: -8584876389959408577
+    List:
+    - name: DS1_Pause_Music
+      guid: 91d93ae380ae4742ba404a458129866c
+      id: 3276488172
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DS1_Pause_Music
+        ObjectType: 3
+      Path: Default Work Unit\DS1_Pause_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: DS1_Play_Music_System
+      guid: fe96eeb5cca74743a9775ae4b7812175
+      id: 3135759928
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DS1_Play_Music_System
+        ObjectType: 3
+      Path: Default Work Unit\DS1_Play_Music_System
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: DS1_Unpause_Music
+      guid: 8f7c90d7a0fb7b438fc0bd682e7e50bb
+      id: 3771715463
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DS1_Unpause_Music
+        ObjectType: 3
+      Path: Default Work Unit\DS1_Unpause_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 78db7805c79aaa4bb25c3c146ae8e84c
+    GuidInternal: 
+    m_lastTime: -8584876419780312652
+    List:
+    - name: EscapeTimer
+      guid: b44ff0069803744a9780c565cacb7245
+      id: 681309163
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EscapeTimer
+        ObjectType: 13
+      Path: Default Work Unit\EscapeTimer
+    - name: Meter_Character
+      guid: 215e987e8a698c44b4cdd5e9cde19d73
+      id: 1514947204
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Meter_Character
+        ObjectType: 13
+      Path: Default Work Unit\Meter_Character
+    - name: Meter_SFX
+      guid: efe220f66ef8224894b5bc40f884e5bb
+      id: 2969259856
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Meter_SFX
+        ObjectType: 13
+      Path: Default Work Unit\Meter_SFX
+    - name: Meter_UI
+      guid: 7b2362cb8f7ba94481d5d715b3fadcbf
+      id: 1871679725
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Meter_UI
+        ObjectType: 13
+      Path: Default Work Unit\Meter_UI
+    - name: playerHealth
+      guid: 975fbb5231a6594c875fc6a365cd65a6
+      id: 151362964
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: playerHealth
+        ObjectType: 13
+      Path: Default Work Unit\playerHealth
+    - name: teleporterDirection
+      guid: 919a1862a02ab046ba69c560540d6f05
+      id: 4014092120
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: teleporterDirection
+        ObjectType: 13
+      Path: Default Work Unit\teleporterDirection
+    - name: teleporterPlayerStatus
+      guid: 654bb0ea08ba4744ac879c3d8da5b494
+      id: 1010989040
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: teleporterPlayerStatus
+        ObjectType: 13
+      Path: Default Work Unit\teleporterPlayerStatus
+    - name: teleporterProximity
+      guid: 1fd6924e2bf2514fb8c3eacd70804ec1
+      id: 1924079656
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: teleporterProximity
+        ObjectType: 13
+      Path: Default Work Unit\teleporterProximity
+    - name: Volume_Master
+      guid: 77bba6d017927c47b78d6c95d107d542
+      id: 3695994288
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Volume_Master
+        ObjectType: 13
+      Path: Default Work Unit\Volume_Master
+    - name: Volume_MSX
+      guid: 25a018597ce4a94b9236e67c6f4cb796
+      id: 3729143042
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Volume_MSX
+        ObjectType: 13
+      Path: Default Work Unit\Volume_MSX
+    - name: Volume_SFX
+      guid: fd38515d150781478a35ea79c770bee3
+      id: 3673881719
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Volume_SFX
+        ObjectType: 13
+      Path: Default Work Unit\Volume_SFX
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: f2d1c8fdf2d47a479843e29a1fe80bbe
+    GuidInternal: 
+    m_lastTime: -8584870387054294421
+    List:
+    - name: bossPhase
+      guid: 2490c76c1efbda4595c5b9d367bc268c
+      id: 2561284575
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: bossPhase
+        ObjectType: 9
+      Path: Default Work Unit\bossPhase
+      values:
+      - name: None
+        guid: 1fe1dbac2a069940a35b5fd54219666a
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: phase1
+        guid: d0149c0bed77764c8315ef1b219c4c6c
+        id: 3630028971
+        PathAndIcons:
+        - ElementName: phase1
+          ObjectType: 8
+      - name: phase2
+        guid: e354f7a63794fe409384dd8c2b0388da
+        id: 3630028968
+        PathAndIcons:
+        - ElementName: phase2
+          ObjectType: 8
+      - name: phase3
+        guid: a1d97c542d68044fac9c8e556751ba58
+        id: 3630028969
+        PathAndIcons:
+        - ElementName: phase3
+          ObjectType: 8
+      - name: phase4
+        guid: 5856e2f9036dac45915094ac56fe1407
+        id: 3630028974
+        PathAndIcons:
+        - ElementName: phase4
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: bossStatus
+      guid: 938963b3addd804c81f71cbc31506aeb
+      id: 549431000
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: bossStatus
+        ObjectType: 9
+      Path: Default Work Unit\bossStatus
+      values:
+      - name: alive
+        guid: eacf0f5c815f2d42b00bff1880f70942
+        id: 655265632
+        PathAndIcons:
+        - ElementName: alive
+          ObjectType: 8
+      - name: dead
+        guid: c3ca8128170d554ebb5f67a6669205e5
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: dead
+          ObjectType: 8
+      - name: None
+        guid: 841879231faf4b4086b1966674e39d0b
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: DS1_gameplaySongChoice
+      guid: 63e7da6c63f2b14d990854c3d0f7e0a1
+      id: 487602916
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DS1_gameplaySongChoice
+        ObjectType: 9
+      Path: Default Work Unit\DS1_gameplaySongChoice
+      values:
+      - name: AuroraBorealis
+        guid: 6eb08b79b0dc3a4ca3e9e276d0d38be2
+        id: 2254536284
+        PathAndIcons:
+        - ElementName: AuroraBorealis
+          ObjectType: 8
+      - name: Decompression_Loop
+        guid: fa2b2f1abd96f24c8c1548446ca0a2db
+        id: 3403129731
+        PathAndIcons:
+        - ElementName: Decompression_Loop
+          ObjectType: 8
+      - name: DiesIrae
+        guid: 064b5cbb7d169543b4b513bcbfa78c13
+        id: 3699353111
+        PathAndIcons:
+        - ElementName: DiesIrae
+          ObjectType: 8
+      - name: MyJazzSong
+        guid: 00a505d9910213498c25028f6ca3adfb
+        id: 145640315
+        PathAndIcons:
+        - ElementName: MyJazzSong
+          ObjectType: 8
+      - name: None
+        guid: c14ea2150a7a4f4d8d8912787570ee68
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: enemyType
+      guid: 9e46c77a13fff140ba38c15403047efd
+      id: 3807720919
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: enemyType
+        ObjectType: 9
+      Path: Default Work Unit\enemyType
+      values:
+      - name: boss
+        guid: cdd5d4118a5c504a9f7de4ae2d8acce6
+        id: 1560169506
+        PathAndIcons:
+        - ElementName: boss
+          ObjectType: 8
+      - name: elite
+        guid: 4201c73c9bb0254899bf0d9b3f2bf9c0
+        id: 1464097230
+        PathAndIcons:
+        - ElementName: elite
+          ObjectType: 8
+      - name: None
+        guid: fd2bff2d4c73f34787a3635552bc1178
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: normal
+        guid: f8e08153ca68034797ee59e1cde0a32e
+        id: 1160234136
+        PathAndIcons:
+        - ElementName: normal
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: ghostStatus
+      guid: 9c03ce6445d0ef4582132c5a146e5245
+      id: 3480929964
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ghostStatus
+        ObjectType: 9
+      Path: Default Work Unit\ghostStatus
+      values:
+      - name: None
+        guid: 15dae3c94597c2418a086548840235ab
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: true
+        guid: 52392b31adcd624596c081020e820e12
+        id: 3053630529
+        PathAndIcons:
+        - ElementName: true
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music_menu
+      guid: 425c0d2a39899540befafe5e1b2d8bf4
+      id: 1598298728
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music_menu
+        ObjectType: 9
+      Path: Default Work Unit\Music_menu
+      values:
+      - name: Logbook2
+        guid: d9575f2bc0ee41459915160b9b0f3fea
+        id: 2326263800
+        PathAndIcons:
+        - ElementName: Logbook2
+          ObjectType: 8
+      - name: Main
+        guid: b3289fa3f5dd0c4baf035e85596a9d73
+        id: 3161908922
+        PathAndIcons:
+        - ElementName: Main
+          ObjectType: 8
+      - name: None
+        guid: a68b77b382ef9f47af815f79a3308b4e
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: OpeningCutScene1
+        guid: 1fdca230d1ac4c4d85d19905f2fb63dd
+        id: 113661376
+        PathAndIcons:
+        - ElementName: OpeningCutScene1
+          ObjectType: 8
+      - name: OpeningCutScene2
+        guid: 19aa919738a57141936884472959fc37
+        id: 113661379
+        PathAndIcons:
+        - ElementName: OpeningCutScene2
+          ObjectType: 8
+      - name: OutroCutsceneA
+        guid: 3a32a6cd0977254eb4db15dbb1dbe4c0
+        id: 2266819555
+        PathAndIcons:
+        - ElementName: OutroCutsceneA
+          ObjectType: 8
+      - name: OutroCutsceneB
+        guid: 579b32e2e0b3084993ebbbfa06a47331
+        id: 2266819552
+        PathAndIcons:
+        - ElementName: OutroCutsceneB
+          ObjectType: 8
+      - name: OutroCutsceneFULL
+        guid: da2df6a24b99f547949bc513c4ee3a45
+        id: 2121506681
+        PathAndIcons:
+        - ElementName: OutroCutsceneFULL
+          ObjectType: 8
+      - name: Prismatic
+        guid: dd1f8a4c3e64494cb0d735fc680cb2bb
+        id: 3912041495
+        PathAndIcons:
+        - ElementName: Prismatic
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music_system
+      guid: 2c75e849e47bb947a6b1842bd9c53467
+      id: 792781730
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music_system
+        ObjectType: 9
+      Path: Default Work Unit\Music_system
+      values:
+      - name: Bossfight
+        guid: bb6ed4eb10d44d4da744f3e36dc8fff8
+        id: 580146960
+        PathAndIcons:
+        - ElementName: Bossfight
+          ObjectType: 8
+      - name: Gameplay
+        guid: 7b407e9a44769342a6b1da255e9b77c1
+        id: 89505537
+        PathAndIcons:
+        - ElementName: Gameplay
+          ObjectType: 8
+      - name: Menu
+        guid: e028ef2aa526a742bb18cc7803fa2f6f
+        id: 2607556080
+        PathAndIcons:
+        - ElementName: Menu
+          ObjectType: 8
+      - name: None
+        guid: 66e503270351604ba72888f4d23fd971
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: SecretLevel
+        guid: 93e771549753e34ca97d9c4e0fa3f289
+        id: 778026301
+        PathAndIcons:
+        - ElementName: SecretLevel
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: TABStatus
+      guid: 61845e5fba9a7141bb3b35f29d3d3296
+      id: 3028652072
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: TABStatus
+        ObjectType: 9
+      Path: Default Work Unit\TABStatus
+      values:
+      - name: None
+        guid: 16e806207c0c634ca2c032f643ca0761
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: off
+        guid: acacab942824054f8b0111fd3b66ed1e
+        id: 930712164
+        PathAndIcons:
+        - ElementName: off
+          ObjectType: 8
+      - name: on
+        guid: 719d6728e54989479e1f0ccec94ad389
+        id: 1651971902
+        PathAndIcons:
+        - ElementName: on
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: teleporterZone
+      guid: 467bf65c01e83745b43a97da4032205e
+      id: 4244680111
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: teleporterZone
+        ObjectType: 9
+      Path: Default Work Unit\teleporterZone
+      values:
+      - name: IN
+        guid: 9096dfd84fdb7742a8344866628a12d8
+        id: 1752637612
+        PathAndIcons:
+        - ElementName: IN
+          ObjectType: 8
+      - name: None
+        guid: bb0031d96e31c34c97a533570824fab2
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: OUT
+        guid: e647dde3df43674e9febc4f9967db790
+        id: 645492555
+        PathAndIcons:
+        - ElementName: OUT
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 34df88e1f50ca847b4426c6f5627ac38
+    GuidInternal: 
+    m_lastTime: -8584876419780342682
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: c497b9ea9bb34241beeb6603241ad258
+    GuidInternal: 
+    m_lastTime: -8584876419780232481
+    List: []
+  ExpandedItems: []
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
