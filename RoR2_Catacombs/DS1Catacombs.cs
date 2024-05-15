@@ -127,6 +127,10 @@ namespace DS1Catacombs.Content
                 contentPack.sceneDefs.Add(assets);
             }));
 
+            DS1BazaarSeer = StageRegistration.MakeBazaarSeerMaterial(DS1ScenePreviewSprite.texture);
+            DS1SceneDef.previewTexture = DS1ScenePreviewSprite.texture;
+            DS1SceneDef.portalMaterial = DS1BazaarSeer;
+
             SetupMusic();
 
             StageRegistration.RegisterSceneDefToLoop(DS1SceneDef);
@@ -136,10 +140,6 @@ namespace DS1Catacombs.Content
 
         private static void SetupMusic()
         {
-            DS1BazaarSeer = StageRegistration.MakeBazaarSeerMaterial(DS1ScenePreviewSprite.texture);
-            DS1SceneDef.previewTexture = DS1ScenePreviewSprite.texture;
-            DS1SceneDef.portalMaterial = DS1BazaarSeer;
-
             var mainCustomTrack = ScriptableObject.CreateInstance<SoundAPI.Music.CustomMusicTrackDef>();
             mainCustomTrack.cachedName = "DS1CustomMainMusic";
             mainCustomTrack.CustomStates = new List<SoundAPI.Music.CustomMusicTrackDef.CustomState>();
