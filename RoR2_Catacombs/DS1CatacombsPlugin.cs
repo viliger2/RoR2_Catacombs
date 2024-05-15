@@ -16,7 +16,7 @@ namespace DS1Catacombs
     {
         public const string Author = "Viliger";
         public const string Name = nameof(DS1CatacombsPlugin);
-        public const string Version = "0.9.2";
+        public const string Version = "0.9.3";
         public const string GUID = Author + "." + Name;
 
         public static ConfigEntry<bool> EnableShitpostMusic;

@@ -5,7 +5,7 @@ Catacombs is a new Stage 2, in which survivors will have to explore lemurian bur
 
 A big thanks to Jace for writing stage guide on Risk of Thunder wiki and creating LocationsOfPrecipitation, without him I would've not bothered with stage creation.
 
-Please send bug reports either by tagging me on Discord in RoR2 Modding server or message me directly @viliger. Github page with VS, Unity and Wwise project is now available.
+Please send bug reports either by tagging me on Discord in RoR2 Modding server, message me directly @viliger or create a Github issue. Github page with VS, Unity and Wwise project is now available.
 
 ## Features
 
