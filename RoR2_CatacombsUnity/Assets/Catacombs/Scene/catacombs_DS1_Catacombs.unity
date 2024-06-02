@@ -534,7 +534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &5916308
 GameObject:
   m_ObjectHideFlags: 0
@@ -716,7 +716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &8020522
 GameObject:
   m_ObjectHideFlags: 0
@@ -992,7 +992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &16078803
 GameObject:
   m_ObjectHideFlags: 0
@@ -1313,7 +1313,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 23844144}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -27.528566, y: 36.33896, z: -440.6521}
+  m_LocalPosition: {x: -27.528566, y: 36.33896, z: -442.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -1333,7 +1333,79 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
+--- !u!1 &24636016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 24636017}
+  - component: {fileID: 24636019}
+  - component: {fileID: 24636018}
+  m_Layer: 0
+  m_Name: LowerCryptWallDisabled
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &24636017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24636016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2142978871}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &24636018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24636016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1630511094, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1460452446}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &24636019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24636016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -689746241, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gateToEnableWhenEnabled: LowerCrypt
+  gateToDisableWhenEnabled: 
 --- !u!1 &24942960
 GameObject:
   m_ObjectHideFlags: 0
@@ -1998,7 +2070,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &42387136
 GameObject:
   m_ObjectHideFlags: 0
@@ -2136,7 +2208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &43907088
 GameObject:
   m_ObjectHideFlags: 0
@@ -2478,7 +2550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &49497859
 GameObject:
   m_ObjectHideFlags: 0
@@ -2616,7 +2688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &52818698
 GameObject:
   m_ObjectHideFlags: 0
@@ -4847,7 +4919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 2
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1001 &97208544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4863,12 +4935,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.6525896
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.6525896
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -4893,27 +4965,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.98318535
+      value: 0.6952167
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.6952167
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.18261065
+      value: -0.12912701
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.12912701
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -5218,7 +5290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &99606702
 GameObject:
   m_ObjectHideFlags: 0
@@ -5474,7 +5546,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103587481}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.864541, y: 45.319458, z: -451.01004}
+  m_LocalPosition: {x: -8.864541, y: 45.319458, z: -452.65793}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -5494,7 +5566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &104276518
 GameObject:
   m_ObjectHideFlags: 0
@@ -6063,7 +6135,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118210920}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -44.27, y: 51.32, z: -445.56}
+  m_LocalPosition: {x: -44.27, y: 51.32, z: -447.2079}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -6083,7 +6155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &118704741
 GameObject:
   m_ObjectHideFlags: 0
@@ -7932,7 +8004,7 @@ GameObject:
   - component: {fileID: 159047836}
   - component: {fileID: 159047835}
   m_Layer: 0
-  m_Name: Toggler
+  m_Name: NewtToggler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8482,7 +8554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &168125352
 GameObject:
   m_ObjectHideFlags: 0
@@ -8597,7 +8669,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 169767545}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.2, y: 46.53, z: -442.59}
+  m_LocalPosition: {x: -20.2, y: 46.53, z: -444.23788}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -8617,7 +8689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &172544805
 GameObject:
   m_ObjectHideFlags: 0
@@ -9184,7 +9256,9 @@ MonoBehaviour:
   maxSeriesSpawnInterval: 1
   minRerollSpawnInterval: 22.5
   maxRerollSpawnInterval: 30
-  moneyWaveIntervals: []
+  moneyWaveIntervals:
+  - min: 1
+    max: 1
   teamIndex: 2
   creditMultiplier: 0.75
   spawnDistanceMultiplier: 1
@@ -10058,12 +10132,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.4834415
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.4834415
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -10088,27 +10162,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9802176
+      value: 0.6931186
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.6931186
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.19792321
+      value: -0.13995238
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.13995238
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -11568,7 +11642,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 230451961}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -31.841362, y: 36.345856, z: -432.991}
+  m_LocalPosition: {x: -31.841362, y: 36.345856, z: -434.6389}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -11588,7 +11662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1001 &231580221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12356,7 +12430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &248276155
 GameObject:
   m_ObjectHideFlags: 0
@@ -12640,7 +12714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &253120867
 GameObject:
   m_ObjectHideFlags: 0
@@ -13008,7 +13082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &258816007
 GameObject:
   m_ObjectHideFlags: 0
@@ -13147,64 +13221,6 @@ MonoBehaviour:
   forbiddenHulls: 0
   flags: 0
   gateName: 
---- !u!1 &260554268
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 260554270}
-  - component: {fileID: 260554269}
-  m_Layer: 0
-  m_Name: WwiseGlobal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &260554269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 260554268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 418b89012de625d4fad06cce4c9cd2f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InitializationSettings: {fileID: 11400000, guid: 9401cec93431f9c49964360ba8c101e2,
-    type: 2}
-  basePath: 
-  language: 
-  defaultPoolSize: 0
-  lowerPoolSize: 0
-  streamingPoolSize: 0
-  memoryCutoffThreshold: 0
-  monitorPoolSize: 0
-  monitorQueuePoolSize: 0
-  callbackManagerBufferSize: 0
-  spatialAudioPoolSize: 0
-  maxSoundPropagationDepth: 0
-  diffractionFlags: 11
-  engineLogging: 0
---- !u!4 &260554270
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 260554268}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &261768304
 GameObject:
   m_ObjectHideFlags: 0
@@ -13329,7 +13345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &262121822
 GameObject:
   m_ObjectHideFlags: 0
@@ -13375,7 +13391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &262227372
 GameObject:
   m_ObjectHideFlags: 0
@@ -13467,7 +13483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &262431984
 GameObject:
   m_ObjectHideFlags: 0
@@ -14447,7 +14463,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &279555964
 GameObject:
   m_ObjectHideFlags: 0
@@ -15179,12 +15195,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0930612
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.0930612
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -15209,27 +15225,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6987184
+      value: 0.49407047
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.49407047
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7153969
+      value: -0.50586003
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.50586003
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -15856,7 +15872,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &303178286
 GameObject:
   m_ObjectHideFlags: 0
@@ -16270,7 +16286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &305601436
 GameObject:
   m_ObjectHideFlags: 0
@@ -17270,7 +17286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &325596047
 GameObject:
   m_ObjectHideFlags: 0
@@ -20102,12 +20118,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3203592
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3203593
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -20132,27 +20148,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.94533014
+      value: 0.66844994
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.66844994
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.32611498
+      value: -0.23059648
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.23059648
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -20389,6 +20405,78 @@ Transform:
   m_Father: {fileID: 327045710}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &373936314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 373936315}
+  - component: {fileID: 373936317}
+  - component: {fileID: 373936316}
+  m_Layer: 0
+  m_Name: RoomWithHolesWallDisabled
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &373936315
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373936314}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 900184940}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &373936316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373936314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1630511094, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1936252171}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &373936317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373936314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -689746241, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gateToEnableWhenEnabled: RoomWithHoles
+  gateToDisableWhenEnabled: 
 --- !u!1 &374536269
 GameObject:
   m_ObjectHideFlags: 0
@@ -21324,7 +21412,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 16
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &389872874
 GameObject:
   m_ObjectHideFlags: 0
@@ -21749,6 +21837,8 @@ GameObject:
   m_Component:
   - component: {fileID: 397480738}
   - component: {fileID: 397480739}
+  - component: {fileID: 397480741}
+  - component: {fileID: 397480740}
   m_Layer: 20
   m_Name: 'HOLDER: PP'
   m_TagString: Untagged
@@ -21787,6 +21877,99 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   priority: 0
+--- !u!114 &397480740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397480737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1654260760, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NGSS_KEEP_ONDISABLE: 1
+  NGSS_NO_UPDATE_ON_PLAY: 0
+  NGSS_SHADOWS_RESOLUTION: 256
+  NGSS_SAMPLING_TEST: 16
+  NGSS_SAMPLING_FILTER: 48
+  NGSS_SAMPLING_DISTANCE: 75
+  NGSS_SHADOWS_SOFTNESS: 1
+  NGSS_PCSS_ENABLED: 0
+  NGSS_PCSS_SOFTNESS_NEAR: 0.125
+  NGSS_PCSS_SOFTNESS_FAR: 1
+  NGSS_NOISE_TO_DITHERING_SCALE: 0
+  NGSS_NOISE_TEXTURE: {fileID: 0}
+  NGSS_DENOISER_ENABLED: 1
+  NGSS_DENOISER_ITERATIONS: 2
+  NGSS_DENOISER_BLUR: 0.25
+  NGSS_DENOISER_EDGE_TOLERANCE: 0.5
+  NGSS_RECEIVER_PLANE_BIAS: 0
+  NGSS_CASCADES_BLENDING: 1
+  NGSS_CASCADES_BLENDING_VALUE: 1
+  NGSS_CASCADES_SOFTNESS_NORMALIZATION: 1
+--- !u!108 &397480741
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397480737}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &397761622
 GameObject:
   m_ObjectHideFlags: 0
@@ -22133,7 +22316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 402647408}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -44.27, y: 54.99, z: -445.56}
+  m_LocalPosition: {x: -44.27, y: 54.99, z: -447.2079}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -22153,7 +22336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1001 &403964654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22675,7 +22858,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 409914710}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.743927, y: 36.33, z: -433.38394}
+  m_LocalPosition: {x: -23.743927, y: 36.33, z: -435.03183}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -22695,7 +22878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &411065389
 GameObject:
   m_ObjectHideFlags: 0
@@ -23385,7 +23568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &428806422
 GameObject:
   m_ObjectHideFlags: 0
@@ -23569,12 +23752,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.4211569
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.4211569
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -23599,27 +23782,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.92417395
+      value: 0.6534891
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.6534891
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.38197196
+      value: 0.2700963
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.2700963
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -23869,27 +24052,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.94527197
+      value: 0.6684077
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.6684077
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.32628354
+      value: -0.23071897
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.23071897
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -24505,7 +24688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &452611763
 GameObject:
   m_ObjectHideFlags: 0
@@ -24637,6 +24820,78 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 453020094}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &453718811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 453718812}
+  - component: {fileID: 453718814}
+  - component: {fileID: 453718813}
+  m_Layer: 0
+  m_Name: LowerCryptWallEnabled
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &453718812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453718811}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2142978871}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &453718813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453718811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1630511094, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1460452446}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &453718814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453718811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -689746241, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gateToEnableWhenEnabled: 
+  gateToDisableWhenEnabled: LowerCrypt
 --- !u!1 &453729853
 GameObject:
   m_ObjectHideFlags: 0
@@ -24682,7 +24937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &454907845
 GameObject:
   m_ObjectHideFlags: 0
@@ -25178,7 +25433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &461235830
 GameObject:
   m_ObjectHideFlags: 0
@@ -25574,7 +25829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &469820468
 GameObject:
   m_ObjectHideFlags: 0
@@ -26133,7 +26388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &477225041 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1798208987833780, guid: 0eb5cce329abffb448474f510359ce1c,
@@ -28515,12 +28770,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.61845875
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.6184587
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -28545,27 +28800,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5089315
+      value: 0.35986692
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.35986692
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.86080706
+      value: 0.6086837
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.6086837
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -28805,7 +29060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &514186791
 GameObject:
   m_ObjectHideFlags: 0
@@ -30449,7 +30704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &516313097
 GameObject:
   m_ObjectHideFlags: 0
@@ -31348,7 +31603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 12
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &529444612
 GameObject:
   m_ObjectHideFlags: 0
@@ -32175,7 +32430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 12
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &545402957
 GameObject:
   m_ObjectHideFlags: 0
@@ -33042,7 +33297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 12
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &558899441
 GameObject:
   m_ObjectHideFlags: 0
@@ -34402,7 +34657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &585805421
 GameObject:
   m_ObjectHideFlags: 0
@@ -34538,7 +34793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &589410210
 GameObject:
   m_ObjectHideFlags: 0
@@ -35122,7 +35377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &599676860
 GameObject:
   m_ObjectHideFlags: 0
@@ -37110,7 +37365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &636995559
 GameObject:
   m_ObjectHideFlags: 0
@@ -37172,12 +37427,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.7195595
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.71955955
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -37202,27 +37457,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9869461
+      value: 0.7035706
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.035345245
+      value: 0.7035706
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.14985709
+      value: -0.07062865
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.04723377
+      value: 0.07062865
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 3.1880002
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -37318,12 +37573,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1563921
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1563921
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -37348,27 +37603,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.95036834
+      value: 0.6720125
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.6720125
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.31112713
+      value: 0.21999812
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.21999812
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -37934,7 +38189,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653983223}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -53.59035, y: 45.459473, z: -439.52643}
+  m_LocalPosition: {x: -53.59035, y: 45.459473, z: -441.17432}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -37954,7 +38209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &654591650
 GameObject:
   m_ObjectHideFlags: 0
@@ -38192,7 +38447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &657065588
 GameObject:
   m_ObjectHideFlags: 0
@@ -38238,7 +38493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 2
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &659613431
 GameObject:
   m_ObjectHideFlags: 0
@@ -38284,7 +38539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &660111327
 GameObject:
   m_ObjectHideFlags: 0
@@ -39602,7 +39857,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 691899546}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.629868, y: 45.459473, z: -453.64978}
+  m_LocalPosition: {x: -19.629868, y: 45.459473, z: -455.29767}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -39622,7 +39877,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &692377027
 GameObject:
   m_ObjectHideFlags: 0
@@ -40614,7 +40869,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &714061198
 GameObject:
   m_ObjectHideFlags: 0
@@ -41028,7 +41283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1001 &721352992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41043,8 +41298,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.5473
+      objectReference: {fileID: 0}
+    - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.5473
+      objectReference: {fileID: 0}
+    - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
+        type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8057359
+      value: 0.44696587
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -41054,7 +41319,7 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 387.37183
+      value: 387.09
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -41064,27 +41329,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99824834
+      value: 0.70709527
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.045013558
+      value: 0.70709527
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.024286455
+      value: 0.0040417393
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.029736811
+      value: -0.0040417393
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -5.2390003
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -41250,7 +41515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &724270681
 GameObject:
   m_ObjectHideFlags: 0
@@ -43143,6 +43408,127 @@ MonoBehaviour:
   forbiddenHulls: 0
   flags: 0
   gateName: 
+--- !u!1 &762432790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 762432791}
+  - component: {fileID: 762432794}
+  - component: {fileID: 762432793}
+  - component: {fileID: 762432792}
+  - component: {fileID: 762432796}
+  - component: {fileID: 762432795}
+  m_Layer: 11
+  m_Name: Entrance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 16
+  m_IsActive: 1
+--- !u!4 &762432791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762432790}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.57}
+  m_LocalScale: {x: 1, y: 27, z: 30}
+  m_Children: []
+  m_Father: {fileID: 1936252172}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &762432792
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762432790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &762432793
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762432790}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: df50b3801bd878746a07c8fd4149f44d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &762432794
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762432790}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &762432795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762432790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b3f6bc89640549408c2a4c5f9a7d0f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceDefAddress: RoR2/Base/Common/sdStone.asset
+--- !u!114 &762432796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762432790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceDef: {fileID: 0}
 --- !u!1 &762617931
 GameObject:
   m_ObjectHideFlags: 0
@@ -43488,7 +43874,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766903882}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.2, y: 52.6, z: -442.59}
+  m_LocalPosition: {x: -20.2, y: 52.6, z: -444.23788}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -43508,7 +43894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &767711000
 GameObject:
   m_ObjectHideFlags: 0
@@ -43616,12 +44002,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5355162
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5355162
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -43646,27 +44032,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.96066725
+      value: 0.6792947
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.6792947
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.2777021
+      value: -0.19636382
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.19636382
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -45331,7 +45717,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: -1
   flags: 28
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &805268005
 GameObject:
   m_ObjectHideFlags: 0
@@ -45653,7 +46039,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 2
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &811301991
 GameObject:
   m_ObjectHideFlags: 0
@@ -46143,6 +46529,7 @@ Transform:
   m_Children:
   - {fileID: 8676993220722049154}
   - {fileID: 331082593}
+  - {fileID: 1450291708}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -46191,7 +46578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 2
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &821607604
 GameObject:
   m_ObjectHideFlags: 0
@@ -46210,7 +46597,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &821607605
 AudioListener:
   m_ObjectHideFlags: 0
@@ -47103,7 +47490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &835775637
 GameObject:
   m_ObjectHideFlags: 0
@@ -47712,7 +48099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &844932744
 GameObject:
   m_ObjectHideFlags: 0
@@ -48262,7 +48649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &850498945
 GameObject:
   m_ObjectHideFlags: 0
@@ -48704,7 +49091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 2
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &857923661
 GameObject:
   m_ObjectHideFlags: 0
@@ -49584,7 +49971,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874702826}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.2, y: 55.64, z: -442.59}
+  m_LocalPosition: {x: -20.2, y: 55.64, z: -444.23788}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -49604,7 +49991,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &875810955
 GameObject:
   m_ObjectHideFlags: 0
@@ -49998,7 +50385,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881609883}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -27.528566, y: 36.33896, z: -433.43604}
+  m_LocalPosition: {x: -27.528566, y: 36.33896, z: -435.08392}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -50018,7 +50405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &885349437
 GameObject:
   m_ObjectHideFlags: 0
@@ -50801,6 +51188,38 @@ MonoBehaviour:
   forbiddenHulls: 0
   flags: 1
   gateName: 
+--- !u!1 &900184939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 900184940}
+  m_Layer: 0
+  m_Name: RoomWithHoles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &900184940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900184939}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 373936315}
+  - {fileID: 1381173857}
+  m_Father: {fileID: 1786712400}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &900920753
 GameObject:
   m_ObjectHideFlags: 0
@@ -51030,7 +51449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1001 &903273958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52919,7 +53338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &922942602
 GameObject:
   m_ObjectHideFlags: 0
@@ -53793,7 +54212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 12
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &942505845
 GameObject:
   m_ObjectHideFlags: 0
@@ -55545,7 +55964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1001 &972689513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55576,27 +55995,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -55779,12 +56198,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.61322135
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.61322135
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -55809,27 +56228,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7542833
+      value: 0.53336054
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.53336054
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.65654916
+      value: -0.46424833
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.46424833
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -57304,7 +57723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1001 &987768126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57335,27 +57754,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.88656384
+      value: 0.62689483
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.62689483
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.46260634
+      value: -0.327113
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.327113
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -58397,12 +58816,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5562478
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5562478
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -58427,27 +58846,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9560088
+      value: 0.676
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.676
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.29333824
+      value: -0.20742247
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.20742247
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -58614,7 +59033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1006589219
 GameObject:
   m_ObjectHideFlags: 0
@@ -58660,7 +59079,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1008072426
 GameObject:
   m_ObjectHideFlags: 0
@@ -59400,12 +59819,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.66526383
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.66526383
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -59430,27 +59849,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9253755
+      value: 0.6543391
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.6543391
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.37905183
+      value: -0.2680305
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.2680305
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -60086,12 +60505,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.59843606
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5984361
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -60116,27 +60535,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9051071
+      value: 0.64000624
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.64000624
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.4251838
+      value: -0.3006526
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.3006526
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -60395,7 +60814,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1033586034
 GameObject:
   m_ObjectHideFlags: 0
@@ -61349,7 +61768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1045210231
 GameObject:
   m_ObjectHideFlags: 0
@@ -61579,7 +61998,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1050100777
 GameObject:
   m_ObjectHideFlags: 0
@@ -62067,7 +62486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1061560534
 GameObject:
   m_ObjectHideFlags: 0
@@ -62267,12 +62686,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.9537494
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.9537495
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -62297,27 +62716,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.96387076
+      value: 0.6815592
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.6815592
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.26637024
+      value: -0.18835346
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.18835346
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -63759,7 +64178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 2
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1092504274
 GameObject:
   m_ObjectHideFlags: 0
@@ -64911,7 +65330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 8
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1114321381
 GameObject:
   m_ObjectHideFlags: 0
@@ -65029,7 +65448,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1118141523}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -31.841362, y: 36.345856, z: -440.20706}
+  m_LocalPosition: {x: -31.841362, y: 36.345856, z: -441.85495}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -65049,7 +65468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1120221884
 GameObject:
   m_ObjectHideFlags: 0
@@ -65203,12 +65622,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3454982
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3454982
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -65233,27 +65652,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.95836574
+      value: 0.67766637
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.67766637
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.2855436
+      value: -0.20191166
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.20191166
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -66525,7 +66944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1142633171
 GameObject:
   m_ObjectHideFlags: 0
@@ -66571,7 +66990,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1142952012
 GameObject:
   m_ObjectHideFlags: 0
@@ -67199,7 +67618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1158246731
 GameObject:
   m_ObjectHideFlags: 0
@@ -68014,6 +68433,94 @@ MonoBehaviour:
   forbiddenHulls: 0
   flags: 0
   gateName: 
+--- !u!1 &1177688616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1177688617}
+  - component: {fileID: 1177688619}
+  - component: {fileID: 1177688618}
+  m_Layer: 0
+  m_Name: RoomsToggler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1177688617
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177688616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1488967582}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1177688618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177688616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1517225185, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleGroups:
+  - objects:
+    - {fileID: 24636016}
+    - {fileID: 453718811}
+    minEnabled: 1
+    maxEnabled: 1
+  - objects:
+    - {fileID: 373936314}
+    - {fileID: 1381173856}
+    minEnabled: 1
+    maxEnabled: 1
+--- !u!114 &1177688619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177688616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!1001 &1178263204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69390,12 +69897,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.50740415
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5074041
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -69420,27 +69927,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9653389
+      value: 0.68259734
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.68259734
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.26099968
+      value: -0.184556
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.184556
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -70200,7 +70707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1211360047
 GameObject:
   m_ObjectHideFlags: 0
@@ -70292,7 +70799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 2
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1212541015
 GameObject:
   m_ObjectHideFlags: 0
@@ -70706,7 +71213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1222849779
 GameObject:
   m_ObjectHideFlags: 0
@@ -71864,7 +72371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1234947768
 GameObject:
   m_ObjectHideFlags: 0
@@ -72522,7 +73029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1246269239
 GameObject:
   m_ObjectHideFlags: 0
@@ -72722,12 +73229,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5804199
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.58041984
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -72752,27 +73259,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.96858776
+      value: 0.68489486
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.68489486
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.24867211
+      value: -0.17583834
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.17583834
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -73869,12 +74376,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.68481904
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.68481904
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -73899,27 +74406,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.96712035
+      value: 0.6838566
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.6838566
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.25431913
+      value: -0.17983386
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.17983386
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -74347,27 +74854,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -74627,7 +75134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 2
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1001 &1280027426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75620,6 +76127,127 @@ MonoBehaviour:
   forbiddenHulls: 0
   flags: 0
   gateName: 
+--- !u!1 &1300212023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1300212024}
+  - component: {fileID: 1300212027}
+  - component: {fileID: 1300212026}
+  - component: {fileID: 1300212025}
+  - component: {fileID: 1300212029}
+  - component: {fileID: 1300212028}
+  m_Layer: 11
+  m_Name: Celling1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 16
+  m_IsActive: 1
+--- !u!4 &1300212024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300212023}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.641, y: 23.89, z: -15.116}
+  m_LocalScale: {x: 18, y: 1, z: 18}
+  m_Children: []
+  m_Father: {fileID: 1936252172}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1300212025
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300212023}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1300212026
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300212023}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: fbcaa44d915ea8244b95e371575c52e4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1300212027
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300212023}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1300212028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300212023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceDef: {fileID: 0}
+--- !u!114 &1300212029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300212023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b3f6bc89640549408c2a4c5f9a7d0f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceDefAddress: RoR2/Base/Common/sdStone.asset
 --- !u!1 &1304388335
 GameObject:
   m_ObjectHideFlags: 0
@@ -77364,7 +77992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1347577142
 GameObject:
   m_ObjectHideFlags: 0
@@ -77482,7 +78110,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1350273850}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -44.954838, y: 45.299484, z: -453.78455}
+  m_LocalPosition: {x: -44.954838, y: 45.299484, z: -455.43243}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -77502,7 +78130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1351409924
 GameObject:
   m_ObjectHideFlags: 0
@@ -77672,7 +78300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 12
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1001 &1356690654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78324,7 +78952,7 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.80573595
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -78349,27 +78977,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.86846125
+      value: 0.614096
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.614096
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.4957571
+      value: 0.35055122
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.35055122
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -78381,11 +79009,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3459316225150004950, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 5104646818441205503, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_Name
@@ -78641,7 +79264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1376068035
 GameObject:
   m_ObjectHideFlags: 0
@@ -78824,6 +79447,78 @@ MonoBehaviour:
   forbiddenHulls: 0
   flags: 2
   gateName: 
+--- !u!1 &1381173856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1381173857}
+  - component: {fileID: 1381173859}
+  - component: {fileID: 1381173858}
+  m_Layer: 0
+  m_Name: RoomWithHolesWallEnabled
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1381173857
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381173856}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 900184940}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1381173858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381173856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1630511094, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1936252171}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &1381173859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381173856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -689746241, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gateToEnableWhenEnabled: 
+  gateToDisableWhenEnabled: RoomWithHoles
 --- !u!1 &1381483251
 GameObject:
   m_ObjectHideFlags: 0
@@ -79007,7 +79702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1383869065
 GameObject:
   m_ObjectHideFlags: 0
@@ -79529,12 +80224,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5777286
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5777287
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -79559,27 +80254,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.86959577
+      value: 0.6148959
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.6148959
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.4937644
+      value: -0.34914622
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.34914622
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -79838,7 +80533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1394053656
 GameObject:
   m_ObjectHideFlags: 0
@@ -80736,7 +81431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 2
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1410636997
 GameObject:
   m_ObjectHideFlags: 0
@@ -80873,7 +81568,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1413208958}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -41.297066, y: 31.78917, z: -429.39133}
+  m_LocalPosition: {x: -41.27, y: 31.78917, z: -429.39133}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 514348725}
@@ -80893,7 +81588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1415490889
 GameObject:
   m_ObjectHideFlags: 0
@@ -87581,6 +88276,39 @@ MonoBehaviour:
   forbiddenHulls: 0
   flags: 2
   gateName: 
+--- !u!1 &1450291707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1450291708}
+  m_Layer: 11
+  m_Name: Blockers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1450291708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450291707}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1460452447}
+  - {fileID: 1936252172}
+  - {fileID: 1786712400}
+  m_Father: {fileID: 820746318}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1450679039
 GameObject:
   m_ObjectHideFlags: 0
@@ -87796,7 +88524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1456296179
 GameObject:
   m_ObjectHideFlags: 0
@@ -88191,6 +88919,127 @@ MonoBehaviour:
   gateName: 
   objectsToEnableDuringTest: []
   objectsToDisableDuringTest: []
+--- !u!1 &1460452446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1460452447}
+  - component: {fileID: 1460452450}
+  - component: {fileID: 1460452449}
+  - component: {fileID: 1460452448}
+  - component: {fileID: 1460452452}
+  - component: {fileID: 1460452451}
+  m_Layer: 11
+  m_Name: LowerCrypt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 16
+  m_IsActive: 0
+--- !u!4 &1460452447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460452446}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 86.62, y: -55.8, z: -318.134}
+  m_LocalScale: {x: 1, y: 23, z: 23}
+  m_Children: []
+  m_Father: {fileID: 1450291708}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1460452448
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460452446}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1460452449
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460452446}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: df50b3801bd878746a07c8fd4149f44d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1460452450
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460452446}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1460452451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460452446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b3f6bc89640549408c2a4c5f9a7d0f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceDefAddress: RoR2/Base/Common/sdStone.asset
+--- !u!114 &1460452452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460452446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceDef: {fileID: 0}
 --- !u!1001 &1461045635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89188,7 +90037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 8
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1479127207
 GameObject:
   m_ObjectHideFlags: 0
@@ -89338,7 +90187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1001 &1479692844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89510,7 +90359,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480753614}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -33.62987, y: 45.299484, z: -439.6499}
+  m_LocalPosition: {x: -33.62987, y: 45.299484, z: -441.2978}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -89530,7 +90379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 2
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1481481554
 GameObject:
   m_ObjectHideFlags: 0
@@ -90106,6 +90955,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 159047834}
+  - {fileID: 1177688617}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -90512,7 +91362,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1500346073
 GameObject:
   m_ObjectHideFlags: 0
@@ -91338,7 +92188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1511940956
 GameObject:
   m_ObjectHideFlags: 0
@@ -91898,7 +92748,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1001 &1518156877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92172,7 +93022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1521263066
 GameObject:
   m_ObjectHideFlags: 0
@@ -92264,7 +93114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1521554339
 GameObject:
   m_ObjectHideFlags: 0
@@ -92546,7 +93396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1530721236
 GameObject:
   m_ObjectHideFlags: 0
@@ -92960,7 +93810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1536743763
 GameObject:
   m_ObjectHideFlags: 0
@@ -93834,7 +94684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1556265565
 GameObject:
   m_ObjectHideFlags: 0
@@ -94228,7 +95078,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561264299}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -44.27, y: 47.65, z: -445.56}
+  m_LocalPosition: {x: -44.27, y: 47.65, z: -447.2079}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -94248,7 +95098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1561831575
 GameObject:
   m_ObjectHideFlags: 0
@@ -94917,7 +95767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 8
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1575440964
 GameObject:
   m_ObjectHideFlags: 0
@@ -95497,7 +96347,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1581411040
 GameObject:
   m_ObjectHideFlags: 0
@@ -95727,7 +96577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 12
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1587262448
 GameObject:
   m_ObjectHideFlags: 0
@@ -96419,7 +97269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1594383751
 GameObject:
   m_ObjectHideFlags: 0
@@ -98247,6 +99097,127 @@ MonoBehaviour:
   forbiddenHulls: 0
   flags: 2
   gateName: 
+--- !u!1 &1617806263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1617806264}
+  - component: {fileID: 1617806267}
+  - component: {fileID: 1617806266}
+  - component: {fileID: 1617806265}
+  - component: {fileID: 1617806269}
+  - component: {fileID: 1617806268}
+  m_Layer: 11
+  m_Name: Celling2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 16
+  m_IsActive: 1
+--- !u!4 &1617806264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617806263}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.64, y: 23.89, z: 10.63}
+  m_LocalScale: {x: 18, y: 1, z: 18}
+  m_Children: []
+  m_Father: {fileID: 1936252172}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1617806265
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617806263}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1617806266
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617806263}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: fbcaa44d915ea8244b95e371575c52e4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1617806267
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617806263}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1617806268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617806263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceDef: {fileID: 0}
+--- !u!114 &1617806269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617806263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b3f6bc89640549408c2a4c5f9a7d0f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceDefAddress: RoR2/Base/Common/sdStone.asset
 --- !u!1 &1618161725
 GameObject:
   m_ObjectHideFlags: 0
@@ -99302,7 +100273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1639124208
 GameObject:
   m_ObjectHideFlags: 0
@@ -99532,7 +100503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1642560029
 GameObject:
   m_ObjectHideFlags: 0
@@ -100294,7 +101265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1001 &1655684134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100325,27 +101296,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9823162
+      value: 0.6946028
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.6946028
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.18722974
+      value: -0.13238949
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.13238949
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -101024,7 +101995,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1665714895}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -33.62987, y: 45.299484, z: -453.6498}
+  m_LocalPosition: {x: -33.62987, y: 45.299484, z: -455.2977}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -101044,7 +102015,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1665972433
 GameObject:
   m_ObjectHideFlags: 0
@@ -102389,7 +103360,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 16
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1690149662
 GameObject:
   m_ObjectHideFlags: 0
@@ -102914,7 +103885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1701941076
 GameObject:
   m_ObjectHideFlags: 0
@@ -103780,7 +104751,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711625931}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -44.940567, y: 45.299484, z: -439.9521}
+  m_LocalPosition: {x: -44.940567, y: 45.299484, z: -441.59998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -103800,7 +104771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 2
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1714193339
 GameObject:
   m_ObjectHideFlags: 0
@@ -103938,7 +104909,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1715757425
 GameObject:
   m_ObjectHideFlags: 0
@@ -104100,7 +105071,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716593940}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -53.66098, y: 45.319458, z: -453.86963}
+  m_LocalPosition: {x: -53.66098, y: 45.319458, z: -455.51752}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -104120,7 +105091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1717436543
 GameObject:
   m_ObjectHideFlags: 0
@@ -106861,7 +107832,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 16
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1774575172
 GameObject:
   m_ObjectHideFlags: 0
@@ -107089,12 +108060,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5998703
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5998703
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -107119,27 +108090,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.93870145
+      value: 0.6637617
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.6637617
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.34473112
+      value: -0.24376307
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.24376307
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -107495,7 +108466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1785414629
 GameObject:
   m_ObjectHideFlags: 0
@@ -107542,6 +108513,38 @@ MonoBehaviour:
   forbiddenHulls: 0
   flags: 2
   gateName: 
+--- !u!1 &1786712399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1786712400}
+  m_Layer: 0
+  m_Name: RoomsLogic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1786712400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786712399}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 158.58736, y: -132.03514, z: -555.8387}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2142978871}
+  - {fileID: 900184940}
+  m_Father: {fileID: 1450291708}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1786825098 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
@@ -108972,12 +109975,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2522748
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2522746
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -109002,37 +110005,37 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9442545
+      value: 0.6260627
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.06592125
+      value: 0.70965815
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.32171032
+      value: -0.21378772
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.023246288
+      value: 0.24233386
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 8.016001
+      value: 97.16199
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -37.622
+      value: -37.708008
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.086
+      value: -0.000015258789
       objectReference: {fileID: 0}
     - target: {fileID: 5104646818441205503, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -109381,7 +110384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1818938916
 GameObject:
   m_ObjectHideFlags: 0
@@ -109949,12 +110952,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.49191785
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.49191785
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -109979,27 +110982,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9556858
+      value: 0.67577153
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.67577153
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.29438874
+      value: -0.20816562
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.20816562
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -110422,7 +111425,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836729573}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.9, y: 45.299484, z: -436.91}
+  m_LocalPosition: {x: -8.9, y: 45.299484, z: -438.5579}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -110442,7 +111445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1836793989
 GameObject:
   m_ObjectHideFlags: 0
@@ -110703,27 +111706,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8293006
+      value: 0.5864044
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.5864044
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.5588028
+      value: -0.3951328
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.3951328
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -111914,7 +112917,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857979211}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.743927, y: 36.33, z: -440.6}
+  m_LocalPosition: {x: -23.743927, y: 36.33, z: -442.2479}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -111934,7 +112937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1858477902
 GameObject:
   m_ObjectHideFlags: 0
@@ -112118,7 +113121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &1861809108
 GameObject:
   m_ObjectHideFlags: 0
@@ -113834,7 +114837,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1001 &1892239638
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -115646,7 +116649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1920412710
 GameObject:
   m_ObjectHideFlags: 0
@@ -116655,6 +117658,39 @@ MonoBehaviour:
   forbiddenHulls: 0
   flags: 2
   gateName: 
+--- !u!1 &1936252171
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1936252172}
+  m_Layer: 11
+  m_Name: RoomWithHoles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1936252172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936252171}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -26.99, y: -20.050003, z: -432.73}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 762432791}
+  - {fileID: 1300212024}
+  - {fileID: 1617806264}
+  m_Father: {fileID: 1450291708}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1936343461
 GameObject:
   m_ObjectHideFlags: 0
@@ -117068,7 +118104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1941062758
 GameObject:
   m_ObjectHideFlags: 0
@@ -118757,12 +119793,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.80573595
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8057359
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -118777,7 +119813,7 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 358.9218
+      value: 358.99
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -118787,27 +119823,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99794424
+      value: 0.70674276
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.049703754
+      value: 0.70674276
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.009006447
+      value: 0.022685712
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.03944281
+      value: -0.022685712
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -5.734
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -120014,17 +121050,17 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.9298996
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.9298997
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.9298996
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -120044,27 +121080,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5285454
+      value: 0.3737357
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.3737357
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.8489051
+      value: 0.600268
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.600268
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -120791,7 +121827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &1989531736
 GameObject:
   m_ObjectHideFlags: 0
@@ -121766,7 +122802,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &2006306966
 GameObject:
   m_ObjectHideFlags: 0
@@ -122288,7 +123324,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &2017059595
 GameObject:
   m_ObjectHideFlags: 0
@@ -122913,7 +123949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &2030755467
 GameObject:
   m_ObjectHideFlags: 0
@@ -122959,7 +123995,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &2035979853
 GameObject:
   m_ObjectHideFlags: 0
@@ -123391,7 +124427,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1 &2043846237
 GameObject:
   m_ObjectHideFlags: 0
@@ -123483,7 +124519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 2
-  gateName: 
+  gateName: LowerCrypt
 --- !u!1001 &2045757611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -123499,12 +124535,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.7039956
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.7039956
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -123529,27 +124565,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9978251
+      value: 0.7055689
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.7055689
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.065918155
+      value: -0.046610292
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.046610292
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -123880,7 +124916,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052325206}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.2, y: 49.89, z: -442.59}
+  m_LocalPosition: {x: -20.2, y: 49.89, z: -444.23788}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -123900,7 +124936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1001 &2052915757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -124250,7 +125286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 2
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &2062268314
 GameObject:
   m_ObjectHideFlags: 0
@@ -124496,12 +125532,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2283443
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2283443
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -124526,27 +125562,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9678028
+      value: 0.6843406
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.6843406
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.2517099
+      value: -0.17798321
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.17798321
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -125081,7 +126117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 8
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &2071494649
 GameObject:
   m_ObjectHideFlags: 0
@@ -125127,7 +126163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &2072733599
 GameObject:
   m_ObjectHideFlags: 0
@@ -126801,7 +127837,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2114587741}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.629868, y: 45.299484, z: -439.64984}
+  m_LocalPosition: {x: -19.629868, y: 45.299484, z: -441.29773}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909438265}
@@ -126821,7 +127857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 2
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1 &2114945217
 GameObject:
   m_ObjectHideFlags: 0
@@ -127508,7 +128544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forbiddenHulls: 0
   flags: 0
-  gateName: 
+  gateName: RoomWithHoles
 --- !u!1001 &2124917318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -128564,7 +129600,12 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8057359
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -128589,27 +129630,27 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.97340524
+      value: 0.6883015
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.6883015
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.22909024
+      value: -0.16199109
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.16199109
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
@@ -128946,6 +129987,38 @@ MonoBehaviour:
   forbiddenHulls: 0
   flags: 0
   gateName: 
+--- !u!1 &2142978870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2142978871}
+  m_Layer: 0
+  m_Name: LowerCrypt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2142978871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142978870}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 24636017}
+  - {fileID: 453718812}
+  m_Father: {fileID: 1786712400}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2143004627
 GameObject:
   m_ObjectHideFlags: 0
@@ -130130,7 +131203,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!64 &1559889268280732003
 MeshCollider:
@@ -133436,21 +134509,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.7004181
-      objectReference: {fileID: 0}
-    - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.7004181
-      objectReference: {fileID: 0}
-    - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.7004181
-      objectReference: {fileID: 0}
-    - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -131.50249
       objectReference: {fileID: 0}
@@ -133467,37 +134525,37 @@ PrefabInstance:
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.96614796
+      value: 0.65676785
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.65676785
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.2579888
+      value: -0.26202288
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.26202282
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 89.98
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -29.902002
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 293132253672987598, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 43.500004
       objectReference: {fileID: 0}
     - target: {fileID: 5104646818441205503, guid: 324ac0f9fa11c264ca2f2e861657e2fe,
         type: 3}
