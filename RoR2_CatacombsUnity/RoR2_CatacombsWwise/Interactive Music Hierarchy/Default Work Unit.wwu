@@ -23,7 +23,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicPlaylistContainer Name="Decompression_Loop" ID="{CACB36BF-1800-442F-89FF-C295C57A9235}" ShortID="655108219">
+								<MusicPlaylistContainer Name="AreYouReady" ID="{CACB36BF-1800-442F-89FF-C295C57A9235}" ShortID="655108219">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -428,15 +428,15 @@
 								</MusicTransition>
 							</TransitionList>
 							<ArgumentList>
-								<ArgumentRef Name="DS1_gameplaySongChoice" ID="{6CDAE763-F263-4DB1-9908-54C3D0F7E0A1}"/>
+								<ArgumentRef Name="gameplaySongChoice" ID="{6CDAE763-F263-4DB1-9908-54C3D0F7E0A1}"/>
 							</ArgumentList>
 							<EntryList>
 								<Entry>
 									<Path>
-										<PathElementRef Name="Decompression_Loop" ID="{1A2F2BFA-96BD-4CF2-8C15-48446CA0A2DB}"/>
+										<PathElementRef Name="AreYouReady" ID="{1A2F2BFA-96BD-4CF2-8C15-48446CA0A2DB}"/>
 									</Path>
 									<AudioNodeInfo>
-										<AudioNodeRef Name="Decompression_Loop" ID="{CACB36BF-1800-442F-89FF-C295C57A9235}" WorkUnitID="{D98BF7EA-A549-4A29-B9E6-B1AA479DCE3E}" Platform="Linked"/>
+										<AudioNodeRef Name="AreYouReady" ID="{CACB36BF-1800-442F-89FF-C295C57A9235}" WorkUnitID="{D98BF7EA-A549-4A29-B9E6-B1AA479DCE3E}" Platform="Linked"/>
 									</AudioNodeInfo>
 								</Entry>
 								<Entry>
@@ -467,7 +467,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicPlaylistContainer Name="MyJazzSong" ID="{CC368C87-1F11-4ED7-95B5-ABAECD9A8540}" ShortID="974909494">
+								<MusicPlaylistContainer Name="MaxwellTheme" ID="{CC368C87-1F11-4ED7-95B5-ABAECD9A8540}" ShortID="974909494">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -862,7 +862,7 @@
 								</MusicTransition>
 							</TransitionList>
 							<ArgumentList>
-								<ArgumentRef Name="DS1_gameplaySongChoice" ID="{6CDAE763-F263-4DB1-9908-54C3D0F7E0A1}"/>
+								<ArgumentRef Name="gameplaySongChoice" ID="{6CDAE763-F263-4DB1-9908-54C3D0F7E0A1}"/>
 							</ArgumentList>
 							<EntryList>
 								<Entry>
@@ -883,10 +883,10 @@
 								</Entry>
 								<Entry>
 									<Path>
-										<PathElementRef Name="MyJazzSong" ID="{D905A500-0291-4913-8C25-028F6CA3ADFB}"/>
+										<PathElementRef Name="MaxwellTheme" ID="{D905A500-0291-4913-8C25-028F6CA3ADFB}"/>
 									</Path>
 									<AudioNodeInfo>
-										<AudioNodeRef Name="MyJazzSong" ID="{CC368C87-1F11-4ED7-95B5-ABAECD9A8540}" WorkUnitID="{D98BF7EA-A549-4A29-B9E6-B1AA479DCE3E}" Platform="Linked"/>
+										<AudioNodeRef Name="MaxwellTheme" ID="{CC368C87-1F11-4ED7-95B5-ABAECD9A8540}" WorkUnitID="{D98BF7EA-A549-4A29-B9E6-B1AA479DCE3E}" Platform="Linked"/>
 									</AudioNodeInfo>
 								</Entry>
 							</EntryList>

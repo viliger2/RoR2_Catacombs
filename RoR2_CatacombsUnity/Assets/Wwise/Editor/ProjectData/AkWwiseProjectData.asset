@@ -104,7 +104,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 69bd900c8b038a4fbbd9b3f31ad09cc4
     GuidInternal: 
-    m_lastTime: -8584870386886403451
+    m_lastTime: -8584839842905845891
     List:
     - name: DS1CatacombsMusic
       guid: 86a85940e42d8444a6be09a5d5db8835
@@ -123,7 +123,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 94e26b68af1eec4e8e171b0ae9efe044
     GuidInternal: 
-    m_lastTime: -8584876389959408577
+    m_lastTime: -8584837453446573780
     List:
     - name: DS1_Pause_Music
       guid: 91d93ae380ae4742ba404a458129866c
@@ -278,7 +278,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: f2d1c8fdf2d47a479843e29a1fe80bbe
     GuidInternal: 
-    m_lastTime: -8584870387054294421
+    m_lastTime: -8584837451723786040
     List:
     - name: bossPhase
       guid: 2490c76c1efbda4595c5b9d367bc268c
@@ -354,49 +354,6 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
-    - name: DS1_gameplaySongChoice
-      guid: 63e7da6c63f2b14d990854c3d0f7e0a1
-      id: 487602916
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: DS1_gameplaySongChoice
-        ObjectType: 9
-      Path: Default Work Unit\DS1_gameplaySongChoice
-      values:
-      - name: AuroraBorealis
-        guid: 6eb08b79b0dc3a4ca3e9e276d0d38be2
-        id: 2254536284
-        PathAndIcons:
-        - ElementName: AuroraBorealis
-          ObjectType: 8
-      - name: Decompression_Loop
-        guid: fa2b2f1abd96f24c8c1548446ca0a2db
-        id: 3403129731
-        PathAndIcons:
-        - ElementName: Decompression_Loop
-          ObjectType: 8
-      - name: DiesIrae
-        guid: 064b5cbb7d169543b4b513bcbfa78c13
-        id: 3699353111
-        PathAndIcons:
-        - ElementName: DiesIrae
-          ObjectType: 8
-      - name: MyJazzSong
-        guid: 00a505d9910213498c25028f6ca3adfb
-        id: 145640315
-        PathAndIcons:
-        - ElementName: MyJazzSong
-          ObjectType: 8
-      - name: None
-        guid: c14ea2150a7a4f4d8d8912787570ee68
-        id: 748895195
-        PathAndIcons:
-        - ElementName: None
-          ObjectType: 8
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
     - name: enemyType
       guid: 9e46c77a13fff140ba38c15403047efd
       id: 3807720919
@@ -430,6 +387,49 @@ MonoBehaviour:
         id: 1160234136
         PathAndIcons:
         - ElementName: normal
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: gameplaySongChoice
+      guid: 63e7da6c63f2b14d990854c3d0f7e0a1
+      id: 1741660947
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: gameplaySongChoice
+        ObjectType: 9
+      Path: Default Work Unit\gameplaySongChoice
+      values:
+      - name: AreYouReady
+        guid: fa2b2f1abd96f24c8c1548446ca0a2db
+        id: 2399718655
+        PathAndIcons:
+        - ElementName: AreYouReady
+          ObjectType: 8
+      - name: AuroraBorealis
+        guid: 6eb08b79b0dc3a4ca3e9e276d0d38be2
+        id: 2254536284
+        PathAndIcons:
+        - ElementName: AuroraBorealis
+          ObjectType: 8
+      - name: DiesIrae
+        guid: 064b5cbb7d169543b4b513bcbfa78c13
+        id: 3699353111
+        PathAndIcons:
+        - ElementName: DiesIrae
+          ObjectType: 8
+      - name: MaxwellTheme
+        guid: 00a505d9910213498c25028f6ca3adfb
+        id: 1661578544
+        PathAndIcons:
+        - ElementName: MaxwellTheme
+          ObjectType: 8
+      - name: None
+        guid: c14ea2150a7a4f4d8d8912787570ee68
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
           ObjectType: 8
       ValueGuids: []
       ValueIcons: []

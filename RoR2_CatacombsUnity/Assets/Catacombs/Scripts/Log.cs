@@ -1,7 +1,7 @@
 ﻿using BepInEx.Logging;
 
 namespace DS1Catacombs
-{ 
+{
     internal static class Log
     {
         private static ManualLogSource _logSource;

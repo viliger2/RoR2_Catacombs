@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ab697a99748c0c4ab45df9fde4b93cc, type: 3}
-  m_Name: D905A500-0291-4913-8C25-028F6CA3ADFB
+  m_Name: 798BB06E-DCB0-4C3A-A3E9-E276D0D38BE2
   m_EditorClassIdentifier: 
-  objectName: MaxwellTheme
-  id: 1661578544
-  guid: D905A500-0291-4913-8C25-028F6CA3ADFB
+  objectName: AuroraBorealis
+  id: 2254536284
+  guid: 798BB06E-DCB0-4C3A-A3E9-E276D0D38BE2
   WwiseStateGroupReference: {fileID: 11400000, guid: b882144552b84d44ab76df592494707b,
     type: 2}

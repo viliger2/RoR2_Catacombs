@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -255427816, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: MainTrackDef
+  m_Name: DS1BossTrackDef
   m_EditorClassIdentifier: 
   soundBank:
     idInternal: 0
@@ -22,12 +22,12 @@ MonoBehaviour:
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 767f63316e0799a42828d2b938e00d3f,
+    WwiseObjectReference: {fileID: 11400000, guid: 46fd80db94d333047b759914210f7546,
       type: 2}
   - idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 592331ae8a8379f4fb8d5baef55849f6,
+    WwiseObjectReference: {fileID: 11400000, guid: 3a130f989b040ee418e314820c9badb5,
       type: 2}
   comment: 

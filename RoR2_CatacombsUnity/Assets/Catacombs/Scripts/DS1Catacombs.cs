@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections; 
-using System.Linq;
+﻿using R2API;
 using RoR2;
 using RoR2.ContentManagement;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
-using UnityEngine.Networking;
-using UnityEngine.ResourceManagement.AsyncOperations;
-using RoR2.ExpansionManagement;
-using System.Collections.Generic;
-using RoR2.Networking;
-using R2API;
-using UnityEngine.ResourceManagement.ResourceProviders;
 
 namespace DS1Catacombs.Content
 {
@@ -24,8 +19,6 @@ namespace DS1Catacombs.Content
 
         private static AssetBundle _scenesAssetBundle;
         private static AssetBundle _assetsAssetBundle;
-
-        internal static MusicTrackDef MusicTrack;
 
         internal static UnlockableDef[] UnlockableDefs;
         internal static SceneDef[] SceneDefs;
@@ -51,79 +44,41 @@ namespace DS1Catacombs.Content
 
         internal static void LoadSoundBank(string soundbanksFolderPath)
         {
-            var customMusicData = new SoundAPI.Music.CustomMusicData();
-            customMusicData.BepInPlugin = DS1CatacombsStage.PluginInfo.Metadata;
-            customMusicData.PlayMusicSystemEventName = "DS1_Play_Music_System";
-            customMusicData.BanksFolderPath = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(typeof(ContentProvider).Assembly.Location), "Soundbanks");
-            customMusicData.InitBankName = "DS1CatacombsInit.bnk";
-            customMusicData.SoundBankName = "DS1CatacombsMusic.bnk";
-
-            Log.Info(string.Format("BanksFolderPath {0}, InitBankName {1}, SoundBankName {2}", customMusicData.BanksFolderPath, customMusicData.InitBankName, customMusicData.SoundBankName));
-
-            customMusicData.SceneDefToTracks = new Dictionary<SceneDef, IEnumerable<SoundAPI.Music.MainAndBossTracks>>();
-
-            var mainCustomTrack = ScriptableObject.CreateInstance<SoundAPI.Music.CustomMusicTrackDef>();
-            mainCustomTrack.cachedName = "DS1CustomMusic";
-            mainCustomTrack.SoundBankName = customMusicData.SoundBankName;
-            mainCustomTrack.CustomStates = new List<SoundAPI.Music.CustomMusicTrackDef.CustomState>();
-
-            var cstate1 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
-            cstate1.GroupId = 487602916U; // gathered from the MOD's Init bank txt file
-            cstate1.StateId = 145640315U; // gathered from the MOD's Init bank txt file
-            mainCustomTrack.CustomStates.Add(cstate1);
-            var cstate2 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
-            cstate2.GroupId = 792781730U; // gathered from the GAME's Init bank txt file
-            cstate2.StateId = 89505537U; // gathered from the GAME's Init bank txt file
-            mainCustomTrack.CustomStates.Add(cstate2);
-
-            List<SoundAPI.Music.MainAndBossTracks> value = new List<SoundAPI.Music.MainAndBossTracks>
+            var akResult = AkSoundEngine.AddBasePath(soundbanksFolderPath);
+            if (akResult == AKRESULT.AK_Success)
             {
-                new SoundAPI.Music.MainAndBossTracks(mainCustomTrack, null)
-            };
+                Log.Info($"Added bank base path : {soundbanksFolderPath}");
+            }
+            else
+            {
+                Log.Error(
+                    $"Error adding base path : {soundbanksFolderPath} " +
+                    $"Error code : {akResult}");
+            }
 
-            var scene = Addressables.LoadAssetAsync<SceneDef>("RoR2/Base/blackbeach/blackbeach.asset").WaitForCompletion();
+            akResult = AkSoundEngine.LoadBank(InitSoundBankFileName, out var _);
+            if (akResult == AKRESULT.AK_Success)
+            {
+                Log.Info($"Added bank : {InitSoundBankFileName}");
+            }
+            else
+            {
+                Log.Error(
+                    $"Error loading bank : {InitSoundBankFileName} " +
+                    $"Error code : {akResult}");
+            }
 
-            customMusicData.SceneDefToTracks.Add(scene, value);
-            //customMusicData.SceneDefToTracks.Add(DS1CatacombsContent.DS1SceneDef, value);
-
-            SoundAPI.Music.Add(customMusicData);
-
-
-            //var akResult = AkSoundEngine.AddBasePath(soundbanksFolderPath);
-            //if (akResult == AKRESULT.AK_Success)
-            //{
-            //    Log.Info($"Added bank base path : {soundbanksFolderPath}");
-            //}
-            //else
-            //{
-            //    Log.Error(
-            //        $"Error adding base path : {soundbanksFolderPath} " +
-            //        $"Error code : {akResult}");
-            //}
-
-            //akResult = AkSoundEngine.LoadBank(InitSoundBankFileName, out var _);
-            //if (akResult == AKRESULT.AK_Success)
-            //{
-            //    Log.Info($"Added bank : {InitSoundBankFileName}");
-            //}
-            //else
-            //{
-            //    Log.Error(
-            //        $"Error loading bank : {InitSoundBankFileName} " +
-            //        $"Error code : {akResult}");
-            //}      
-
-            //akResult = AkSoundEngine.LoadBank(SoundBankFileName, out var _);
-            //if (akResult == AKRESULT.AK_Success)
-            //{
-            //    Log.Info($"Added bank : {SoundBankFileName}");
-            //}
-            //else
-            //{
-            //    Log.Error(
-            //        $"Error loading bank : {SoundBankFileName} " +
-            //        $"Error code : {akResult}");
-            //}       
+            akResult = AkSoundEngine.LoadBank(SoundBankFileName, out var _);
+            if (akResult == AKRESULT.AK_Success)
+            {
+                Log.Info($"Added bank : {SoundBankFileName}");
+            }
+            else
+            {
+                Log.Error(
+                    $"Error loading bank : {SoundBankFileName} " +
+                    $"Error code : {akResult}");
+            }
         }
 
         internal static IEnumerator LoadAssetBundlesAsync(AssetBundle scenesAssetBundle, AssetBundle assetsAssetBundle, IProgress<float> progress, ContentPack contentPack, string musicFolderFullPath)
@@ -150,7 +105,7 @@ namespace DS1Catacombs.Content
                         }
                     }
                 }
-                
+
             }));
 
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<UnlockableDef[]>)((assets) =>
@@ -159,10 +114,10 @@ namespace DS1Catacombs.Content
                 contentPack.unlockableDefs.Add(assets);
             }));
 
-             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<Sprite[]>)((assets) =>
-             {
-                 DS1ScenePreviewSprite = assets.First(a => a.name == "texCatacombsPreview");
-             }));
+            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<Sprite[]>)((assets) =>
+            {
+                DS1ScenePreviewSprite = assets.First(a => a.name == "texCatacombsPreview");
+            }));
 
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SceneDef[]>)((assets) =>
             {
@@ -172,40 +127,70 @@ namespace DS1Catacombs.Content
                 contentPack.sceneDefs.Add(assets);
             }));
 
-            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action <MusicTrackDef[]>)((assets) => {
-                MusicTrack = assets.First(mt => mt.cachedName == "MainTrackDef");
-            }));
+            //yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<MusicTrackDef[]>)((assets) =>
+            //{
+            //    //SM64BBFMainTrack = assets.First(mtd => mtd.cachedName == "SM64_BBF");
+            //    contentPack.musicTrackDefs.Add(assets);
+            //}));
 
             DS1BazaarSeer = StageRegistration.MakeBazaarSeerMaterial(DS1ScenePreviewSprite.texture);
             DS1SceneDef.previewTexture = DS1ScenePreviewSprite.texture;
             DS1SceneDef.portalMaterial = DS1BazaarSeer;
 
-            //var dioramaPrefab = Addressables.LoadAssetAsync<GameObject>("RoR2/Base/golemplains/GolemplainsDioramaDisplay.prefab");
-            //while (!dioramaPrefab.IsDone)
-            //{
-            //    yield return null;
-            //}
-            //DS1SceneDef.dioramaPrefab = dioramaPrefab.Result;
-
-            var mainTrackDefRequest = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/Base/Common/muSong13.asset");
-            while (!mainTrackDefRequest.IsDone)
-            {
-                yield return null;
-            }
-            var bossTrackDefRequest = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/Base/Common/muSong05.asset");
-            while (!bossTrackDefRequest.IsDone)
-            {
-                yield return null;
-            }
-
-            DS1SceneDef.mainTrack = mainTrackDefRequest.Result;
-            DS1SceneDef.bossTrack = bossTrackDefRequest.Result;
+            SetupMusic();
 
             StageRegistration.RegisterSceneDefToLoop(DS1SceneDef);
 
-            //DS1CatacombsContent.LoadSoundBank(musicFolderFullPath);
-
             Log.Debug(DS1SceneDef.destinationsGroup);
+        }
+
+        private static void SetupMusic()
+        {
+            var mainCustomTrack = ScriptableObject.CreateInstance<SoundAPI.Music.CustomMusicTrackDef>();
+            mainCustomTrack.cachedName = "DS1CustomMainMusic";
+            mainCustomTrack.comment = "Aurora Borealis\r\nDS1Catacombs";
+            mainCustomTrack.CustomStates = new List<SoundAPI.Music.CustomMusicTrackDef.CustomState>();
+
+            var cstate1 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
+            cstate1.GroupId = 1741660947U; // gathered from the MOD's Init bank txt file
+            if (DS1CatacombsPlugin.EnableShitpostMusic.Value)
+            {
+                cstate1.StateId = 145640315U; // Maxwell's theme
+            }
+            else
+            {
+                cstate1.StateId = 2254536284U; // AuroraBorealis
+            }
+            mainCustomTrack.CustomStates.Add(cstate1);
+            var cstate2 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
+            cstate2.GroupId = 792781730U; // gathered from the GAME's Init bank txt file
+            cstate2.StateId = 89505537U; // gathered from the GAME's Init bank txt file
+            mainCustomTrack.CustomStates.Add(cstate2);
+
+            DS1SceneDef.mainTrack = mainCustomTrack;
+
+            var bossCustomTrack = ScriptableObject.CreateInstance<SoundAPI.Music.CustomMusicTrackDef>();
+            bossCustomTrack.cachedName = "DS1CustomBossMusic";
+            bossCustomTrack.comment = "Dies Irae\r\nDS1Catacombs bosstrack";
+            bossCustomTrack.CustomStates = new List<SoundAPI.Music.CustomMusicTrackDef.CustomState>();
+
+            var cstate11 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
+            cstate11.GroupId = 1741660947U; // gathered from the MOD's Init bank txt file
+            if (DS1CatacombsPlugin.EnableShitpostMusic.Value)
+            {
+                cstate11.StateId = 3403129731U; // ARE YOU READY
+            } else 
+            { 
+                cstate11.StateId = 3699353111U; // DiesIrae
+            }
+
+            bossCustomTrack.CustomStates.Add(cstate11);
+            var cstate12 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
+            cstate12.GroupId = 792781730U; // gathered from the GAME's Init bank txt file
+            cstate12.StateId = 580146960U; // gathered from the GAME's Init bank txt file
+            bossCustomTrack.CustomStates.Add(cstate12);
+
+            DS1SceneDef.bossTrack = bossCustomTrack;
         }
 
         private static IEnumerator LoadAllAssetsAsync<T>(AssetBundle assetBundle, IProgress<float> progress, Action<T[]> onAssetsLoaded) where T : UnityEngine.Object
@@ -220,6 +205,6 @@ namespace DS1Catacombs.Content
             onAssetsLoaded(sceneDefsRequest.allAssets.Cast<T>().ToArray());
 
             yield break;
-        } 
+        }
     }
 }

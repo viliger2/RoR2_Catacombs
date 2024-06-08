@@ -127,6 +127,12 @@ namespace DS1Catacombs.Content
                 contentPack.sceneDefs.Add(assets);
             }));
 
+            //yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<MusicTrackDef[]>)((assets) =>
+            //{
+            //    //SM64BBFMainTrack = assets.First(mtd => mtd.cachedName == "SM64_BBF");
+            //    contentPack.musicTrackDefs.Add(assets);
+            //}));
+
             DS1BazaarSeer = StageRegistration.MakeBazaarSeerMaterial(DS1ScenePreviewSprite.texture);
             DS1SceneDef.previewTexture = DS1ScenePreviewSprite.texture;
             DS1SceneDef.portalMaterial = DS1BazaarSeer;
@@ -142,13 +148,14 @@ namespace DS1Catacombs.Content
         {
             var mainCustomTrack = ScriptableObject.CreateInstance<SoundAPI.Music.CustomMusicTrackDef>();
             mainCustomTrack.cachedName = "DS1CustomMainMusic";
+            mainCustomTrack.comment = "Aurora Borealis\r\nDS1Catacombs";
             mainCustomTrack.CustomStates = new List<SoundAPI.Music.CustomMusicTrackDef.CustomState>();
 
             var cstate1 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
-            cstate1.GroupId = 487602916U; // gathered from the MOD's Init bank txt file
+            cstate1.GroupId = 1741660947U; // gathered from the MOD's Init bank txt file
             if (DS1CatacombsPlugin.EnableShitpostMusic.Value)
             {
-                cstate1.StateId = 145640315U; // Maxwell's theme
+                cstate1.StateId = 1661578544U; // Maxwell's theme
             }
             else
             {
@@ -164,13 +171,14 @@ namespace DS1Catacombs.Content
 
             var bossCustomTrack = ScriptableObject.CreateInstance<SoundAPI.Music.CustomMusicTrackDef>();
             bossCustomTrack.cachedName = "DS1CustomBossMusic";
+            bossCustomTrack.comment = "Dies Irae\r\nDS1Catacombs bosstrack";
             bossCustomTrack.CustomStates = new List<SoundAPI.Music.CustomMusicTrackDef.CustomState>();
 
             var cstate11 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
-            cstate11.GroupId = 487602916U; // gathered from the MOD's Init bank txt file
+            cstate11.GroupId = 1741660947U; // gathered from the MOD's Init bank txt file
             if (DS1CatacombsPlugin.EnableShitpostMusic.Value)
             {
-                cstate11.StateId = 3403129731U; // ARE YOU READY
+                cstate11.StateId = 2399718655U; // ARE YOU READY
             } else 
             { 
                 cstate11.StateId = 3699353111U; // DiesIrae
