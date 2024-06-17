@@ -1,4 +1,13 @@
 <details>
+<summary>0.9.4 </summary>
+
+* Fixed music conflict with Bobomb Battlefield.
+* Removed SoundAPI dependency, as it is no longer needed.
+* Small optimizations to some assets that should result in slightly better performance.
+* Made some tombs optional, as in they will sometimes be closed.
+	* _You might say that this makes already small stage even smaller and you will be right. Fixing music issue was top priority and it came in the middle of adding another feature. So this is somewhat of a half measure that is currently left in as is._
+</details>
+<details>
 <summary>0.9.3 </summary>
 
 * Added github link (forgot about it in 0.9.2).
