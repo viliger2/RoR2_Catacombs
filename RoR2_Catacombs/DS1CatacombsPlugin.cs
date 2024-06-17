@@ -12,7 +12,6 @@ namespace DS1Catacombs
     [BepInPlugin("com.Viliger.DS1Catacombs", "DS1Catacombs", Version)]
     [BepInDependency(R2API.DirectorAPI.PluginGUID)]
     [BepInDependency(R2API.StageRegistration.PluginGUID)]
-    [BepInDependency("com.Viliger.SM64BBF")]
     //[BepInDependency(R2API.SoundAPI.PluginGUID)]
     public class DS1CatacombsPlugin : BaseUnityPlugin
     {
@@ -36,18 +35,8 @@ namespace DS1Catacombs
             Log.Init(Logger);
 
             On.RoR2.MusicController.Start += MusicController_Start;
-            On.RoR2.MusicController.LateUpdate += MusicController_LateUpdate;
             ContentManager.collectContentPackProviders += GiveToRoR2OurContentPackProviders;
             Language.collectLanguageRootFolders += CollectLanguageRootFolders;
-        }
-
-        private void MusicController_LateUpdate(On.RoR2.MusicController.orig_LateUpdate orig, MusicController self)
-        {
-            bool isPaused = Time.timeScale == 0f;
-            if (isPaused != self.wasPaused)
-            {
-                AkSoundEngine.PostEvent(isPaused ? "DS1_Pause_Music" : "DS1_Unpause_Music", base.gameObject);
-            }
         }
 
         private void MusicController_Start(On.RoR2.MusicController.orig_Start orig, MusicController self)
