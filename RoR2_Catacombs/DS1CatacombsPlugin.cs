@@ -12,12 +12,11 @@ namespace DS1Catacombs
     [BepInPlugin("com.Viliger.DS1Catacombs", "DS1Catacombs", Version)]
     [BepInDependency(R2API.DirectorAPI.PluginGUID)]
     [BepInDependency(R2API.StageRegistration.PluginGUID)]
-    //[BepInDependency(R2API.SoundAPI.PluginGUID)]
     public class DS1CatacombsPlugin : BaseUnityPlugin
     {
         public const string Author = "Viliger";
         public const string Name = nameof(DS1CatacombsPlugin);
-        public const string Version = "0.9.3";
+        public const string Version = "0.9.4";
         public const string GUID = Author + "." + Name;
 
         public static ConfigEntry<bool> EnableShitpostMusic;

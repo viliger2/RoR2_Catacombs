@@ -30,8 +30,8 @@ MonoBehaviour:
   loreToken: CATACOMBS_MAP_DS1_CATACOMBS_LORE
   dioramaPrefab: {fileID: 311249932813750508, guid: b6200dbecb1444d4ea80d7a11b6b540b,
     type: 3}
-  mainTrack: {fileID: 0}
-  bossTrack: {fileID: 0}
+  mainTrack: {fileID: 11400000, guid: 1cd743e5b1f74e645a63a95fdf2ea938, type: 2}
+  bossTrack: {fileID: 11400000, guid: d8d01e28f54454441830677d27f97b70, type: 2}
   suppressPlayerEntry: 0
   suppressNpcEntry: 0
   blockOrbitalSkills: 0

@@ -127,17 +127,29 @@ namespace DS1Catacombs.Content
                 contentPack.sceneDefs.Add(assets);
             }));
 
-            //yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<MusicTrackDef[]>)((assets) =>
-            //{
-            //    //SM64BBFMainTrack = assets.First(mtd => mtd.cachedName == "SM64_BBF");
-            //    contentPack.musicTrackDefs.Add(assets);
-            //}));
+            MusicTrackDef shitpostMainTrack = null;
+            MusicTrackDef shitpostBossTrack = null;
+
+            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<MusicTrackDef[]>)((assets) =>
+            {
+                shitpostMainTrack = assets.First(mtd => mtd.cachedName == "DS1CatacombsShitpostMainTrack");
+                shitpostBossTrack = assets.First(mtd => mtd.cachedName == "DS1CatacombsShitpostBossTrack");
+                contentPack.musicTrackDefs.Add(assets);
+            }));
 
             DS1BazaarSeer = StageRegistration.MakeBazaarSeerMaterial(DS1ScenePreviewSprite.texture);
             DS1SceneDef.previewTexture = DS1ScenePreviewSprite.texture;
             DS1SceneDef.portalMaterial = DS1BazaarSeer;
 
-            SetupMusic();
+            if(DS1CatacombsPlugin.EnableShitpostMusic.Value)
+            {
+                DS1SceneDef.mainTrack = shitpostMainTrack;
+                DS1SceneDef.bossTrack = shitpostBossTrack;
+            }
+
+            // Uncomment this if you don't want to use Wwise + Unity integration
+            // but you will need SoundAPI for this
+            //SetupMusic();
 
             StageRegistration.RegisterSceneDefToLoop(DS1SceneDef);
 

@@ -4,4 +4,6 @@
 4. After everything is imported, copy contents of Assets folder into your Unity project's Assets folder. Wait for everything to import.
 5. Navigate to Catacombs\Scene and open catacombs_DS1_Catacombs. It should load.
 6. Click on Director and scroll through components, if there are no missing scripts then everything has been imported correctly.
-7. To build asset bundle (and dll, but you can use VS solution for that) find ContributorBuild in Assets\Catacombs and click Execute.
+7. If you want Wwise working and added it on step 3, then you also have to copy RoR2_CatacombsWwise into your Unity project and then change path to Wwise project under Edit - Preferences - Wwise Editor.
+8. To build asset bundle (and dll, but you can use VS solution for that) find ContributorBuild in Assets\Catacombs and click Execute.
+9. Wwise project comes with no sounds, so you have to provide your own. Thunderstore readme has links for everything.

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{34455410-9810-4BD8-A735-EB19262E57CB}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{34455410-9810-4BD8-A735-EB19262E57CB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="DS1_Pause_Music" ID="{FEAE794B-E777-4BE7-8AFA-22A3E9FFEDF4}">
+					<ChildrenList>
+						<Action Name="" ID="{87A04F4F-5ECB-402D-82FC-E9CC5AEC1DFD}" ShortID="185523103">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DS1_Music_System" ID="{8E4E7934-96A9-4732-B9BF-80B111F9D39E}" WorkUnitID="{7DB0CF19-9071-4CD6-8DBF-12580D6A050A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DS1_Play_Music_System" ID="{AF79B305-DFA8-420F-B678-C98E0C60911C}">
+					<ChildrenList>
+						<Action Name="" ID="{613EB224-2D2F-40CB-8D39-9F051AEE619A}" ShortID="238061957">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DS1_Music_System" ID="{8E4E7934-96A9-4732-B9BF-80B111F9D39E}" WorkUnitID="{7DB0CF19-9071-4CD6-8DBF-12580D6A050A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DS1_Unpause_Music" ID="{9F01C2AC-02FF-497C-B2FE-E8D772A8FF49}">
+					<ChildrenList>
+						<Action Name="" ID="{3C98A232-6517-4DCF-BDFE-87F089F8515D}" ShortID="107900862">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DS1_Music_System" ID="{8E4E7934-96A9-4732-B9BF-80B111F9D39E}" WorkUnitID="{7DB0CF19-9071-4CD6-8DBF-12580D6A050A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
