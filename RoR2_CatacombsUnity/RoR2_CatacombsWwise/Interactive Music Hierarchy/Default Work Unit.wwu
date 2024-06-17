@@ -6,6 +6,82 @@
 				<MusicSwitchContainer Name="DS1_Music_System" ID="{8E4E7934-96A9-4732-B9BF-80B111F9D39E}" ShortID="1040871510">
 					<PropertyList>
 						<Property Name="ContinuePlay" Type="bool" Value="False"/>
+						<Property Name="Highpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{CE74FFFB-DA19-41AF-9F17-7B3E4313D1EA}" ShortID="1041675251">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="playerHealth" ID="{CD15E09B-398D-43DB-9162-38A1AA39D2ED}" WorkUnitID="{E034172F-9FE1-42C9-9D64-3576B213F0F2}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{76CF2D63-90BD-43A5-9282-ACB70A782C18}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>20</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>20</XPos>
+												<YPos>20</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{2798BAB7-91D2-4300-A9A7-635350708D7D}" ShortID="115655957">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="playerHealth" ID="{CD15E09B-398D-43DB-9162-38A1AA39D2ED}" WorkUnitID="{E034172F-9FE1-42C9-9D64-3576B213F0F2}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{CD9A857C-8D9E-4AE4-8AF0-A416DF418219}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>45</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>20</XPos>
+												<YPos>45</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<RTPCList>
 								<RTPC Name="" ID="{47D4E5E4-93DA-41D7-98E4-6A563E8E0934}" ShortID="375298868">
@@ -47,6 +123,90 @@
 						<MusicSwitchContainer Name="BossSongChoice" ID="{BB2EAAF7-1625-4AB1-8BAB-F48FC4F0877C}" ShortID="371851043">
 							<PropertyList>
 								<Property Name="ContinuePlay" Type="bool" Value="False"/>
+								<Property Name="Highpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{C2DC9ECA-593E-48AB-89CD-FC09D031A0EC}" ShortID="799720667">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="teleporterPlayerStatus" ID="{3ECD236F-E68A-49BB-9F9F-8C62809A7C05}" WorkUnitID="{E034172F-9FE1-42C9-9D64-3576B213F0F2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D9C00919-18BC-46E3-A924-ACE83B2731F6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>20</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{6780BE97-A61B-47B4-8F92-3B07C9CDE7F0}" ShortID="862004277">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="teleporterPlayerStatus" ID="{3ECD236F-E68A-49BB-9F9F-8C62809A7C05}" WorkUnitID="{E034172F-9FE1-42C9-9D64-3576B213F0F2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{787325C8-8007-44F6-B974-58DA1F2C3F5E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>45</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{DAF35CF4-3544-4172-873A-A80BC0EA8C40}" ShortID="140498004">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="teleporterPlayerStatus" ID="{3ECD236F-E68A-49BB-9F9F-8C62809A7C05}" WorkUnitID="{E034172F-9FE1-42C9-9D64-3576B213F0F2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7360D4D2-9A05-44B2-A145-70880AF29C4F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-5</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
