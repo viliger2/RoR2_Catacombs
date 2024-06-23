@@ -35,14 +35,12 @@ namespace DS1Catacombs
         private void VamosBegoneWithYou()
         {
             AkSoundEngine.PostEvent("DS1_Vamos_Begone", Vamos);
-            //EntitySoundManager.EmitSoundServer((AkEventIdArg)"DS1_Vamos_Begone", Vamos);
             Invoke("MakeVamosMove", 2f);
         }
 
         private void VamosFocus()
         {
             AkSoundEngine.PostEvent("DS1_Vamos_Focus", Vamos);
-            //EntitySoundManager.EmitSoundServer((AkEventIdArg)"DS1_Vamos_Focus", Vamos);
         }
 
         private void MakeVamosMove()

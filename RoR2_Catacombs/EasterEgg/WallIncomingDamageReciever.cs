@@ -14,7 +14,6 @@ namespace DS1Catacombs
             if(damageInfo.attacker.name.Contains("MinerBody") || DS1CatacombsPlugin.AnyoneCanDestroyWalls.Value)
             {
                 gameObject.GetComponent<HealthComponent>().Suicide();
-                //damageInfo.inflictor.GetComponent<HealthComponent>().Suicide();
             }
         }
     }

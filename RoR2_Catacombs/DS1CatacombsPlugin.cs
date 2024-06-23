@@ -1,5 +1,6 @@
 ﻿using BepInEx;
 using BepInEx.Configuration;
+using R2API;
 using RoR2;
 using RoR2.ContentManagement;
 using System.Collections.Generic;
@@ -12,6 +13,7 @@ namespace DS1Catacombs
     [BepInPlugin("com.Viliger.DS1Catacombs", "DS1Catacombs", Version)]
     [BepInDependency(R2API.DirectorAPI.PluginGUID)]
     [BepInDependency(R2API.StageRegistration.PluginGUID)]
+    [BepInDependency("com.rob.Direseeker", BepInDependency.DependencyFlags.SoftDependency)]
     public class DS1CatacombsPlugin : BaseUnityPlugin
     {
         public const string Author = "Viliger";
@@ -43,6 +45,29 @@ namespace DS1Catacombs
             On.RoR2.MusicController.Start += MusicController_Start;
             ContentManager.collectContentPackProviders += GiveToRoR2OurContentPackProviders;
             Language.collectLanguageRootFolders += CollectLanguageRootFolders;
+
+            if(DireseekerCompat.enabled)
+            {
+                var directorCardHolder = new DirectorAPI.DirectorCardHolder
+                {
+                    Card = new DirectorCard
+                    {
+                        spawnCard = DireseekerCompat.GetDireseekerSpawnCard(),
+                        selectionWeight = 3,
+                        spawnDistance = DirectorCore.MonsterSpawnDistance.Standard,
+                        preventOverhead = false,
+                        minimumStageCompletions = 5
+                    },
+                    MonsterCategory = DirectorAPI.MonsterCategory.Champions
+                };
+
+                DirectorAPI.Helpers.AddNewMonsterToStage(
+                    directorCardHolder,
+                    true,
+                    DirectorAPI.Stage.Custom,
+                    "catacombs_DS1_Catacombs"
+                );
+            }
         }
 
         private void MusicController_Start(On.RoR2.MusicController.orig_Start orig, MusicController self)
