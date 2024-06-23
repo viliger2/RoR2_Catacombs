@@ -1,4 +1,12 @@
 <details>
+<summary>1.0.0 </summary>
+
+* _**I consider 1.0.0 to be final version, I've done everything I wanted with this stage. Everything after will be either bug fixes or support for new CUMs**_.
+* Added an easter egg.
+	* _You'll have to mine for it._
+* Added Direseeker to Champion post loop spawn pool.
+</details>
+<details>
 <summary>0.9.4 </summary>
 
 * Fixed music conflict with Bobomb Battlefield.

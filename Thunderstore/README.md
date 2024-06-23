@@ -12,11 +12,13 @@ Please send bug reports either by tagging me on Discord in RoR2 Modding server, 
   * Smaller, more claustrophobic stage, while offering the same interactable count. This is offset by low light and visibility.
   * Unique combination of enemies (vultures, lemurians, wisps and golems).
   * Supports both DLC and Vanilla enemy and interactable pools.
+  * Direseeker support as post-loop boss.
+  * Very funni secret.
 
 ## Credits
 <details>
 
-  * Stage mesh, coffins, flowers - Dark Souls 1, property of From Software
+  * Stage mesh, coffins, flowers, models - Dark Souls 1, property of From Software
   * Torch Fire - https://www.youtube.com/watch?v=QDAjrrLRyTk
   * Torch - https://sketchfab.com/3d-models/torch-simple-305bfb6ea73148a3bcc6e01a046596b8
   * **Dies Irae** by **Chris Christodoulou** - https://www.youtube.com/watch?v=8DNoXUnaQ9k
@@ -34,6 +36,7 @@ Please send bug reports either by tagging me on Discord in RoR2 Modding server, 
 <details>
 
   * <s>Since apparently at the time of release Wwise for RoR2's Unity version is discontinued, currently stage offers no new tracks for stage itself and boss fight. I want to change this.</s> Done.
-  * Modded enemy support. At the very least Direseeker, he is thematically appropriate.
+  * <s>Modded enemy support. At the very least Direseeker, he is thematically appropriate.</s> Done.
+  * Everything I wanted to do with this map I've done, so future versions will be either bug fixes or updates for new CUMs.
 
 </details>
