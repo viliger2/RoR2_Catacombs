@@ -20,13 +20,20 @@ namespace DS1Catacombs
         public const string GUID = Author + "." + Name;
 
         public static ConfigEntry<bool> EnableShitpostMusic;
+        public static ConfigEntry<bool> AnyoneCanDestroyWalls;
 
         public static DS1CatacombsPlugin instance;
         public static PluginInfo PluginInfo;
 
         private void Awake()
         {
+
+#if DEBUG == true
+            On.RoR2.Networking.NetworkManagerSystemSteam.OnClientConnect += (s, u, t) => { };
+#endif
+
             EnableShitpostMusic = Config.Bind("Catacombs", "Enable shitpost music", false, "Enables shitpost music.");
+            AnyoneCanDestroyWalls = Config.Bind("Catacombs", "Anyone can destroy walls", false, "Wall destruction is no longer minor exclusive.");
 
             instance = this;
             PluginInfo = Info;

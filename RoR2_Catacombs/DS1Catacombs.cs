@@ -16,6 +16,7 @@ namespace DS1Catacombs.Content
         internal const string AssetsAssetBundleFileName = "catacombsassets";
         internal const string SoundBankFileName = "DS1CatacombsMusic.bnk";
         internal const string InitSoundBankFileName = "DS1CatacombsInit.bnk";
+        internal const string SoundEffectsSoundBankFileName = "DS1CatacombsSounds.bnk";
 
         private static AssetBundle _scenesAssetBundle;
         private static AssetBundle _assetsAssetBundle;
@@ -26,6 +27,8 @@ namespace DS1Catacombs.Content
         public static SceneDef DS1SceneDef;
         internal static Sprite DS1ScenePreviewSprite;
         internal static Material DS1BazaarSeer;
+
+        public static GameObject FracturedWall;
 
         public static List<Material> SwappedMaterials = new List<Material>(); //debug
 
@@ -79,6 +82,18 @@ namespace DS1Catacombs.Content
                     $"Error loading bank : {SoundBankFileName} " +
                     $"Error code : {akResult}");
             }
+
+            akResult = AkSoundEngine.LoadBank(SoundEffectsSoundBankFileName, out var _);
+            if (akResult == AKRESULT.AK_Success)
+            {
+                Log.Info($"Added bank : {SoundEffectsSoundBankFileName}");
+            }
+            else
+            {
+                Log.Error(
+                    $"Error loading bank : {SoundEffectsSoundBankFileName} " +
+                    $"Error code : {akResult}");
+            }
         }
 
         internal static IEnumerator LoadAssetBundlesAsync(AssetBundle scenesAssetBundle, AssetBundle assetsAssetBundle, IProgress<float> progress, ContentPack contentPack, string musicFolderFullPath)
@@ -127,6 +142,15 @@ namespace DS1Catacombs.Content
                 contentPack.sceneDefs.Add(assets);
             }));
 
+            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<GameObject[]>)((assets) =>
+            {
+                FracturedWall = assets.First(go => go.name == "fracturedwall_prefab");
+                var LowerCryptWall = assets.First(go => go.name == "LowerCryptWall");
+                contentPack.networkedObjectPrefabs.Add(new GameObject[] { LowerCryptWall });
+            }));
+
+            contentPack.entityStateTypes.Add(new Type[] { typeof(DS1Catacombs.DestructibleWallDeath) });
+
             MusicTrackDef shitpostMainTrack = null;
             MusicTrackDef shitpostBossTrack = null;
 
@@ -136,6 +160,12 @@ namespace DS1Catacombs.Content
                 shitpostBossTrack = assets.First(mtd => mtd.cachedName == "DS1CatacombsShitpostBossTrack");
                 contentPack.musicTrackDefs.Add(assets);
             }));
+
+            contentPack.networkSoundEventDefs.Add(new NetworkSoundEventDef[] {
+                CreateNetworkSoundEventDef("DS1_Vamos_Focus"),
+                CreateNetworkSoundEventDef("DS1_Vamos_Begone"),
+                CreateNetworkSoundEventDef("DS1_Wall_Destroy"),
+            });
 
             DS1BazaarSeer = StageRegistration.MakeBazaarSeerMaterial(DS1ScenePreviewSprite.texture);
             DS1SceneDef.previewTexture = DS1ScenePreviewSprite.texture;
@@ -203,6 +233,14 @@ namespace DS1Catacombs.Content
             bossCustomTrack.CustomStates.Add(cstate12);
 
             DS1SceneDef.bossTrack = bossCustomTrack;
+        }
+
+        private static NetworkSoundEventDef CreateNetworkSoundEventDef(string eventName)
+        {
+            NetworkSoundEventDef networkSoundEventDef = ScriptableObject.CreateInstance<NetworkSoundEventDef>();
+            networkSoundEventDef.eventName = eventName;
+
+            return networkSoundEventDef;
         }
 
         private static IEnumerator LoadAllAssetsAsync<T>(AssetBundle assetBundle, IProgress<float> progress, Action<T[]> onAssetsLoaded) where T : UnityEngine.Object

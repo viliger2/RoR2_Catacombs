@@ -3,9 +3,12 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{6BA6E6E1-1943-430C-BA81-49B6A718B54B}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="F:\Projects\WwiseProjects\RoR2_Catacombs\Originals\SFX\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Originals\SFX\"/>
+				<Property Name="Event Action List\{57105826-6BD8-405F-A6A5-2B0CA7EED233}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9F01C2AC-02FF-497C-B2FE-E8D772A8FF49}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{AF79B305-DFA8-420F-B678-C98E0C60911C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B3E4FE6A-6004-4A50-9092-DAE36248A8D0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F9EC5583-DCB4-47F3-A032-7064144F1A6C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FEAE794B-E777-4BE7-8AFA-22A3E9FFEDF4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -23,7 +26,7 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="3HaXB5g5Mk+0E6IJUN+PeQ=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="3HaXB5g5Mk+0E6IJUN+PeTT1t1Uj/CNDkMpdbyrDN+I="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\x64_{459A5BDE-9339-419F-B8BC-9280A300B74C} - SegmentEditorZoomInfo" Type="string" Value="mpmZmZmZuT8AAAAAAADwPwAAAAAAkGxAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{482CB2A4-0654-405D-ADE1-BFA551D319C0} - SegmentEditorZoomInfo" Type="string" Value="mpmZmZmZuT8AAAAAAADwPwAAAAAAkGxAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
@@ -80,9 +83,11 @@
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="rK5IpIw4aEKLTZcUKWbvhw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value="Lxc04OGfyUKdZDV2shPw8g=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
+				<Property Name="RTPC\GameParameterSimValue\{3ECD236F-E68A-49BB-9F9F-8C62809A7C05}" Type="Real64" Value="1"/>
 				<Property Name="RTPC\GameParameterSimValue\{5703F448-532C-4C8E-B07E-064D47C89CEF}" Type="Real64" Value="50"/>
 				<Property Name="RTPC\GameParameterSimValue\{7A531C76-96D3-4FD4-9D24-1C6284AAEF90}" Type="Real64" Value="50"/>
-				<Property Name="RTPC\GameParameterSimValue\{C3E0416F-8C5C-4349-95AD-E509ECF8CD75}" Type="Real64" Value="50"/>
+				<Property Name="RTPC\GameParameterSimValue\{C3E0416F-8C5C-4349-95AD-E509ECF8CD75}" Type="Real64" Value="100"/>
+				<Property Name="RTPC\GameParameterSimValue\{CD15E09B-398D-43DB-9162-38A1AA39D2ED}" Type="Real64" Value="76.6013071895425"/>
 				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="rK5IpIw4aEKLTZcUKWbvhw=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">

@@ -3,45 +3,86 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{34455410-9810-4BD8-A735-EB19262E57CB}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="DS1_Pause_Music" ID="{FEAE794B-E777-4BE7-8AFA-22A3E9FFEDF4}">
+				<Folder Name="Music" ID="{735465E7-10B1-459B-88D2-7F45529A8B39}" ShortID="13791480">
 					<ChildrenList>
-						<Action Name="" ID="{87A04F4F-5ECB-402D-82FC-E9CC5AEC1DFD}" ShortID="185523103">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="7"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="DS1_Music_System" ID="{8E4E7934-96A9-4732-B9BF-80B111F9D39E}" WorkUnitID="{7DB0CF19-9071-4CD6-8DBF-12580D6A050A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="DS1_Play_Music_System" ID="{AF79B305-DFA8-420F-B678-C98E0C60911C}">
+							<ChildrenList>
+								<Action Name="" ID="{613EB224-2D2F-40CB-8D39-9F051AEE619A}" ShortID="238061957">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DS1_Music_System" ID="{8E4E7934-96A9-4732-B9BF-80B111F9D39E}" WorkUnitID="{7DB0CF19-9071-4CD6-8DBF-12580D6A050A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DS1_Pause_Music" ID="{FEAE794B-E777-4BE7-8AFA-22A3E9FFEDF4}">
+							<ChildrenList>
+								<Action Name="" ID="{87A04F4F-5ECB-402D-82FC-E9CC5AEC1DFD}" ShortID="185523103">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DS1_Music_System" ID="{8E4E7934-96A9-4732-B9BF-80B111F9D39E}" WorkUnitID="{7DB0CF19-9071-4CD6-8DBF-12580D6A050A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DS1_Unpause_Music" ID="{9F01C2AC-02FF-497C-B2FE-E8D772A8FF49}">
+							<ChildrenList>
+								<Action Name="" ID="{3C98A232-6517-4DCF-BDFE-87F089F8515D}" ShortID="107900862">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DS1_Music_System" ID="{8E4E7934-96A9-4732-B9BF-80B111F9D39E}" WorkUnitID="{7DB0CF19-9071-4CD6-8DBF-12580D6A050A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="DS1_Play_Music_System" ID="{AF79B305-DFA8-420F-B678-C98E0C60911C}">
+				</Folder>
+				<Folder Name="SoundEffects" ID="{D9904AB2-D715-420E-9120-0FE2701C3C3D}" ShortID="694361257">
 					<ChildrenList>
-						<Action Name="" ID="{613EB224-2D2F-40CB-8D39-9F051AEE619A}" ShortID="238061957">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="DS1_Music_System" ID="{8E4E7934-96A9-4732-B9BF-80B111F9D39E}" WorkUnitID="{7DB0CF19-9071-4CD6-8DBF-12580D6A050A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="DS1_Vamos_Begone" ID="{57105826-6BD8-405F-A6A5-2B0CA7EED233}">
+							<ChildrenList>
+								<Action Name="" ID="{7C76F20C-44AD-471B-939C-58B919120AE7}" ShortID="258650933">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="begone" ID="{8643B9EB-D7ED-453A-8253-FF7F0B0C0EA2}" WorkUnitID="{4D12A573-2631-4BAC-8F9A-5BBB4FE22F61}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DS1_Vamos_Focus" ID="{F9EC5583-DCB4-47F3-A032-7064144F1A6C}">
+							<ChildrenList>
+								<Action Name="" ID="{D5BA8FAC-DB95-4696-933E-45AE442BD856}" ShortID="197808958">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="focus" ID="{1975C109-C2C1-4023-BEE4-84FC4862F39B}" WorkUnitID="{4D12A573-2631-4BAC-8F9A-5BBB4FE22F61}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DS1_Wall_Destroy" ID="{B3E4FE6A-6004-4A50-9092-DAE36248A8D0}">
+							<ChildrenList>
+								<Action Name="" ID="{23F20739-AE72-49D7-8A4E-36E410E5CEC5}" ShortID="122646856">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DestoryWall" ID="{84EC3064-05C6-43D5-9C79-4A54F0FBDF91}" WorkUnitID="{4D12A573-2631-4BAC-8F9A-5BBB4FE22F61}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="DS1_Unpause_Music" ID="{9F01C2AC-02FF-497C-B2FE-E8D772A8FF49}">
-					<ChildrenList>
-						<Action Name="" ID="{3C98A232-6517-4DCF-BDFE-87F089F8515D}" ShortID="107900862">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="9"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="DS1_Music_System" ID="{8E4E7934-96A9-4732-B9BF-80B111F9D39E}" WorkUnitID="{7DB0CF19-9071-4CD6-8DBF-12580D6A050A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
