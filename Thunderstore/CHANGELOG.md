@@ -1,4 +1,9 @@
 <details>
+<summary>1.0.1 </summary>
+
+* Lowered volume of all sounds. Music is untouched.
+</details>
+<details>
 <summary>1.0.0 </summary>
 
 * _**I consider 1.0.0 to be final version, I've done everything I wanted with this stage. Everything after will be either bug fixes or support for new CUMs**_.
