@@ -4,6 +4,8 @@
 		<UserProjectSettings Name="" ID="{6BA6E6E1-1943-430C-BA81-49B6A718B54B}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Originals\SFX\"/>
+				<Property Name="Event Action List\{07D2B327-2237-4400-8026-A2CA71C5E73E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{13D2AF1E-3CE0-46EF-927B-18FD2639F7AC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{57105826-6BD8-405F-A6A5-2B0CA7EED233}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9F01C2AC-02FF-497C-B2FE-E8D772A8FF49}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{AF79B305-DFA8-420F-B678-C98E0C60911C}\x64_Expand States" Type="string" Value=""/>
@@ -76,8 +78,8 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="SFcQQQNRC020ZRMwGWS+uw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="zdINb6jsNUWE92o2GbxXoXOlEk0xJqxLj5pbu0/iL2E="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="EFRFNBCY2EunNesZJi5Xyw=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="zdINb6jsNUWE92o2GbxXoXOlEk0xJqxLj5pbu0/iL2EVYoMaTVj5T7BygPJ0O6Pv"/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="skqQ2RXXDkKRIA/icBw8PRBURTQQmNhLpzXrGSYuV8s="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="YQUljV9qz0ODZJhdTQGrjaqVLrBA/gtEubFE9352+c1h3U3YKGkbTbfGuMSOe1wo"/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="rK5IpIw4aEKLTZcUKWbvhw=="/>

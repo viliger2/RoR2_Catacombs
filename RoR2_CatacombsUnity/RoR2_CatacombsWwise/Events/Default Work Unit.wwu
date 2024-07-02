@@ -81,6 +81,53 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="DS1_Torch_Play" ID="{07D2B327-2237-4400-8026-A2CA71C5E73E}">
+							<ChildrenList>
+								<Action Name="" ID="{251B9E22-80C1-4495-84E6-DF42931BD71E}" ShortID="457883481">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="torch" ID="{90A558F3-D7CA-4D7E-93D6-867CC528F4F3}" WorkUnitID="{4D12A573-2631-4BAC-8F9A-5BBB4FE22F61}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{428D8B9D-2737-4B8A-ABA5-1B0EFD560745}" ShortID="13493369">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1437C6A2-BD05-4BE8-A0E5-4A090CA3B591}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="torch" ID="{90A558F3-D7CA-4D7E-93D6-867CC528F4F3}" WorkUnitID="{4D12A573-2631-4BAC-8F9A-5BBB4FE22F61}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DS1_Torch_Stop" ID="{13D2AF1E-3CE0-46EF-927B-18FD2639F7AC}">
+							<ChildrenList>
+								<Action Name="" ID="{E4B3D892-0C0F-49D8-9A0A-CD12DA0337B2}" ShortID="511945311">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="torch" ID="{90A558F3-D7CA-4D7E-93D6-867CC528F4F3}" WorkUnitID="{4D12A573-2631-4BAC-8F9A-5BBB4FE22F61}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

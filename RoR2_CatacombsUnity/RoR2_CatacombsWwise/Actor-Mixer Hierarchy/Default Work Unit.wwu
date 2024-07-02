@@ -89,7 +89,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-11</Value>
+												<Value>-12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -144,6 +144,35 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="begone_echo" ID="{52D409B3-8C69-473B-8924-10D05E36407B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="torch" ID="{90A558F3-D7CA-4D7E-93D6-867CC528F4F3}" ShortID="477430177">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="torch" ID="{BFD10FA7-4D33-4432-A2F6-3B7418F047B3}" WorkUnitID="{AF46866B-54A0-4730-980A-43D4BDD3278D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A2196D4-EA81-40D8-BC36-1418C19F2F05}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41105748-5103-4D0B-B465-13301964BEBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="torch" ID="{B0E507ED-FC22-4F18-869C-8F6C68941A1E}">
+											<Language>SFX</Language>
+											<AudioFile>torch.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="587206466"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="torch" ID="{B0E507ED-FC22-4F18-869C-8F6C68941A1E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
