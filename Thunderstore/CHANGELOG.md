@@ -1,4 +1,11 @@
 <details>
+<summary>1.0.2 </summary>
+
+* Water now has sounds and effects, like you would expect water, similar to vanilla stages.
+* Torches' sound is now in Wwise, now follows in-game sound volume setting.
+	* _Don't use premade solutions and then forget to fix them, kids._
+</details>
+<details>
 <summary>1.0.1 </summary>
 
 * Lowered volume of all sounds. Music is untouched.
