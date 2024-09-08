@@ -35,25 +35,15 @@ namespace DS1Catacombs
 
             Log.Init(Logger);
 
-            On.RoR2.MusicController.Start += MusicController_Start;
-            On.RoR2.MusicController.LateUpdate += MusicController_LateUpdate;
+            On.RoR2.MusicController.StartIntroMusic += MusicController_StartIntroMusic;
             ContentManager.collectContentPackProviders += GiveToRoR2OurContentPackProviders;
             Language.collectLanguageRootFolders += CollectLanguageRootFolders;
         }
 
-        private void MusicController_LateUpdate(On.RoR2.MusicController.orig_LateUpdate orig, MusicController self)
-        {
-            bool isPaused = Time.timeScale == 0f;
-            if (isPaused != self.wasPaused)
-            {
-                AkSoundEngine.PostEvent(isPaused ? "DS1_Pause_Music" : "DS1_Unpause_Music", base.gameObject);
-            }
-        }
-
-        private void MusicController_Start(On.RoR2.MusicController.orig_Start orig, MusicController self)
+        private void MusicController_StartIntroMusic(On.RoR2.MusicController.orig_StartIntroMusic orig, MusicController self)
         {
             orig(self);
-            AkSoundEngine.PostEvent("DS1_Play_Music_System", self.gameObject);
+            // AkSoundEngine.PostEvent("DS1_Play_Music_System", self.gameObject);
         }
 
         private void Destroy()

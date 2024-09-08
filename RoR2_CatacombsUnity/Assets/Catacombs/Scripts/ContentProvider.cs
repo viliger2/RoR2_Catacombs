@@ -23,7 +23,7 @@ namespace DS1Catacombs.Content
 
             var musicFolderFullPath = Path.Combine(Path.GetDirectoryName(typeof(ContentProvider).Assembly.Location), "Soundbanks");
 
-            DS1CatacombsContent.LoadSoundBank(musicFolderFullPath);
+            //DS1CatacombsContent.LoadSoundBank(musicFolderFullPath);
 
             AssetBundle scenesAssetBundle = null;
             yield return LoadAssetBundle(

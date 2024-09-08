@@ -1,57 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ValidationCache Version="1" SchemaVersion="97">
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Virtual Acoustics\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Triggers\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Switches\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\States\Default Work Unit.wwu" DateLow="1718547443" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\SoundBanks\Default Work Unit.wwu" DateLow="1718547584" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\RoR2_Catacombs.wproj" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\RoR2_Catacombs.User.wsettings" DateLow="1718626903" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Queries\Factory Queries.wwu" DateLow="1713643002" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Queries\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Presets\Factory Spatial Audio.wwu" DateLow="1713643002" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Presets\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Modulators\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Mixing Sessions\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1718626728" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Game Parameters\Default Work Unit.wwu" DateLow="1718547443" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Events\Default Work Unit.wwu" DateLow="1718547584" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Effects\Factory Effects.wwu" DateLow="1713643002" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Effects\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1713643002" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Conversion Settings\Default Work Unit.wwu" DateLow="1718547584" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Control Surface Sessions\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Audio Devices\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Attenuations\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\WwiseProjects\RoR2_Catacombs\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1718547443" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Triggers\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Switches\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\States\Default Work Unit.wwu" DateLow="1718547443" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\SoundBanks\Default Work Unit.wwu" DateLow="1719149242" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\RoR2_Catacombs.wproj" DateLow="1718641053" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\RoR2_Catacombs.User.wsettings" DateLow="1719341514" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Queries\Factory Queries.wwu" DateLow="1713643002" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Queries\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Presets\Factory Spatial Audio.wwu" DateLow="1713643002" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Presets\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Modulators\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1718646004" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Game Parameters\Default Work Unit.wwu" DateLow="1718646593" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Events\Default Work Unit.wwu" DateLow="1719149242" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Effects\Factory Effects.wwu" DateLow="1713643002" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Effects\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1713643002" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Conversion Settings\Default Work Unit.wwu" DateLow="1718630073" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Audio Devices\Default Work Unit.wwu" DateLow="1718546426" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Attenuations\Default Work Unit.wwu" DateLow="1719149242" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity\RoR2_CatacombsWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1719341513" DateHigh="0"/>
+<ValidationCache Version="1" SchemaVersion="119">
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Triggers\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Switches\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\States\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\SoundBanks\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\RoR2_Catacombs.wproj" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\RoR2_Catacombs.User.wsettings" DateLow="1725811366" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Queries\Factory Queries.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Queries\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Presets\Factory Spatial Audio.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Presets\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Modulators\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Metadata\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Game Parameters\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Events\Default Work Unit.wwu" DateLow="1725811366" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Effects\Factory Effects.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Effects\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Conversion Settings\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Audio Devices\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Attenuations\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnitySoTS\RoR2_CatacombsWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1725655571" DateHigh="0"/>
 </ValidationCache>

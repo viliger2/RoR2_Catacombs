@@ -42,44 +42,44 @@ namespace DS1Catacombs.Content
             {"stubbednature/speedtree", "RoR2/Base/Shaders/SpeedTreeCustom.shader"}
         };
 
-        internal static void LoadSoundBank(string soundbanksFolderPath)
-        {
-            var akResult = AkSoundEngine.AddBasePath(soundbanksFolderPath);
-            if (akResult == AKRESULT.AK_Success)
-            {
-                Log.Info($"Added bank base path : {soundbanksFolderPath}");
-            }
-            else
-            {
-                Log.Error(
-                    $"Error adding base path : {soundbanksFolderPath} " +
-                    $"Error code : {akResult}");
-            }
+        // internal static void LoadSoundBank(string soundbanksFolderPath)
+        // {
+        //     var akResult = AkSoundEngine.AddBasePath(soundbanksFolderPath);
+        //     if (akResult == AKRESULT.AK_Success)
+        //     {
+        //         Log.Info($"Added bank base path : {soundbanksFolderPath}");
+        //     }
+        //     else
+        //     {
+        //         Log.Error(
+        //             $"Error adding base path : {soundbanksFolderPath} " +
+        //             $"Error code : {akResult}");
+        //     }
 
-            akResult = AkSoundEngine.LoadBank(InitSoundBankFileName, out var _);
-            if (akResult == AKRESULT.AK_Success)
-            {
-                Log.Info($"Added bank : {InitSoundBankFileName}");
-            }
-            else
-            {
-                Log.Error(
-                    $"Error loading bank : {InitSoundBankFileName} " +
-                    $"Error code : {akResult}");
-            }
+        //     akResult = AkSoundEngine.LoadBank(InitSoundBankFileName, out var _);
+        //     if (akResult == AKRESULT.AK_Success)
+        //     {
+        //         Log.Info($"Added bank : {InitSoundBankFileName}");
+        //     }
+        //     else
+        //     {
+        //         Log.Error(
+        //             $"Error loading bank : {InitSoundBankFileName} " +
+        //             $"Error code : {akResult}");
+        //     }
 
-            akResult = AkSoundEngine.LoadBank(SoundBankFileName, out var _);
-            if (akResult == AKRESULT.AK_Success)
-            {
-                Log.Info($"Added bank : {SoundBankFileName}");
-            }
-            else
-            {
-                Log.Error(
-                    $"Error loading bank : {SoundBankFileName} " +
-                    $"Error code : {akResult}");
-            }
-        }
+        //     akResult = AkSoundEngine.LoadBank(SoundBankFileName, out var _);
+        //     if (akResult == AKRESULT.AK_Success)
+        //     {
+        //         Log.Info($"Added bank : {SoundBankFileName}");
+        //     }
+        //     else
+        //     {
+        //         Log.Error(
+        //             $"Error loading bank : {SoundBankFileName} " +
+        //             $"Error code : {akResult}");
+        //     }
+        // }
 
         internal static IEnumerator LoadAssetBundlesAsync(AssetBundle scenesAssetBundle, AssetBundle assetsAssetBundle, IProgress<float> progress, ContentPack contentPack, string musicFolderFullPath)
         {
@@ -137,61 +137,61 @@ namespace DS1Catacombs.Content
             DS1SceneDef.previewTexture = DS1ScenePreviewSprite.texture;
             DS1SceneDef.portalMaterial = DS1BazaarSeer;
 
-            SetupMusic();
+            //SetupMusic();
 
             StageRegistration.RegisterSceneDefToLoop(DS1SceneDef);
 
             Log.Debug(DS1SceneDef.destinationsGroup);
         }
 
-        private static void SetupMusic()
-        {
-            var mainCustomTrack = ScriptableObject.CreateInstance<SoundAPI.Music.CustomMusicTrackDef>();
-            mainCustomTrack.cachedName = "DS1CustomMainMusic";
-            mainCustomTrack.comment = "Aurora Borealis\r\nDS1Catacombs";
-            mainCustomTrack.CustomStates = new List<SoundAPI.Music.CustomMusicTrackDef.CustomState>();
+        // private static void SetupMusic()
+        // {
+        //     var mainCustomTrack = ScriptableObject.CreateInstance<SoundAPI.Music.CustomMusicTrackDef>();
+        //     mainCustomTrack.cachedName = "DS1CustomMainMusic";
+        //     mainCustomTrack.comment = "Aurora Borealis\r\nDS1Catacombs";
+        //     mainCustomTrack.CustomStates = new List<SoundAPI.Music.CustomMusicTrackDef.CustomState>();
 
-            var cstate1 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
-            cstate1.GroupId = 1741660947U; // gathered from the MOD's Init bank txt file
-            if (DS1CatacombsPlugin.EnableShitpostMusic.Value)
-            {
-                cstate1.StateId = 145640315U; // Maxwell's theme
-            }
-            else
-            {
-                cstate1.StateId = 2254536284U; // AuroraBorealis
-            }
-            mainCustomTrack.CustomStates.Add(cstate1);
-            var cstate2 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
-            cstate2.GroupId = 792781730U; // gathered from the GAME's Init bank txt file
-            cstate2.StateId = 89505537U; // gathered from the GAME's Init bank txt file
-            mainCustomTrack.CustomStates.Add(cstate2);
+        //     var cstate1 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
+        //     cstate1.GroupId = 1741660947U; // gathered from the MOD's Init bank txt file
+        //     if (DS1CatacombsPlugin.EnableShitpostMusic.Value)
+        //     {
+        //         cstate1.StateId = 145640315U; // Maxwell's theme
+        //     }
+        //     else
+        //     {
+        //         cstate1.StateId = 2254536284U; // AuroraBorealis
+        //     }
+        //     mainCustomTrack.CustomStates.Add(cstate1);
+        //     var cstate2 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
+        //     cstate2.GroupId = 792781730U; // gathered from the GAME's Init bank txt file
+        //     cstate2.StateId = 89505537U; // gathered from the GAME's Init bank txt file
+        //     mainCustomTrack.CustomStates.Add(cstate2);
 
-            DS1SceneDef.mainTrack = mainCustomTrack;
+        //     DS1SceneDef.mainTrack = mainCustomTrack;
 
-            var bossCustomTrack = ScriptableObject.CreateInstance<SoundAPI.Music.CustomMusicTrackDef>();
-            bossCustomTrack.cachedName = "DS1CustomBossMusic";
-            bossCustomTrack.comment = "Dies Irae\r\nDS1Catacombs bosstrack";
-            bossCustomTrack.CustomStates = new List<SoundAPI.Music.CustomMusicTrackDef.CustomState>();
+        //     var bossCustomTrack = ScriptableObject.CreateInstance<SoundAPI.Music.CustomMusicTrackDef>();
+        //     bossCustomTrack.cachedName = "DS1CustomBossMusic";
+        //     bossCustomTrack.comment = "Dies Irae\r\nDS1Catacombs bosstrack";
+        //     bossCustomTrack.CustomStates = new List<SoundAPI.Music.CustomMusicTrackDef.CustomState>();
 
-            var cstate11 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
-            cstate11.GroupId = 1741660947U; // gathered from the MOD's Init bank txt file
-            if (DS1CatacombsPlugin.EnableShitpostMusic.Value)
-            {
-                cstate11.StateId = 3403129731U; // ARE YOU READY
-            } else 
-            { 
-                cstate11.StateId = 3699353111U; // DiesIrae
-            }
+        //     var cstate11 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
+        //     cstate11.GroupId = 1741660947U; // gathered from the MOD's Init bank txt file
+        //     if (DS1CatacombsPlugin.EnableShitpostMusic.Value)
+        //     {
+        //         cstate11.StateId = 3403129731U; // ARE YOU READY
+        //     } else 
+        //     { 
+        //         cstate11.StateId = 3699353111U; // DiesIrae
+        //     }
 
-            bossCustomTrack.CustomStates.Add(cstate11);
-            var cstate12 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
-            cstate12.GroupId = 792781730U; // gathered from the GAME's Init bank txt file
-            cstate12.StateId = 580146960U; // gathered from the GAME's Init bank txt file
-            bossCustomTrack.CustomStates.Add(cstate12);
+        //     bossCustomTrack.CustomStates.Add(cstate11);
+        //     var cstate12 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
+        //     cstate12.GroupId = 792781730U; // gathered from the GAME's Init bank txt file
+        //     cstate12.StateId = 580146960U; // gathered from the GAME's Init bank txt file
+        //     bossCustomTrack.CustomStates.Add(cstate12);
 
-            DS1SceneDef.bossTrack = bossCustomTrack;
-        }
+        //     DS1SceneDef.bossTrack = bossCustomTrack;
+        // }
 
         private static IEnumerator LoadAllAssetsAsync<T>(AssetBundle assetBundle, IProgress<float> progress, Action<T[]> onAssetsLoaded) where T : UnityEngine.Object
         {
