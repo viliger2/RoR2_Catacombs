@@ -1,4 +1,11 @@
 <details>
+<summary>1.0.3 </summary>
+
+* SoTS update.
+* Removed StageAPI dependency.
+* Music might be a bit quiet compared to vanilla stages due to Wwise update. Let me know how it feels.
+</details>
+<details>
 <summary>1.0.2 </summary>
 
 * Water now has sounds and effects, like you would expect water, similar to vanilla stages.

@@ -12,13 +12,13 @@ namespace DS1Catacombs
 {
     [BepInPlugin("com.Viliger.DS1Catacombs", "DS1Catacombs", Version)]
     [BepInDependency(R2API.DirectorAPI.PluginGUID)]
-    [BepInDependency(R2API.StageRegistration.PluginGUID)]
+    //[BepInDependency(R2API.StageRegistration.PluginGUID)]
     [BepInDependency("com.rob.Direseeker", BepInDependency.DependencyFlags.SoftDependency)]
     public class DS1CatacombsPlugin : BaseUnityPlugin
     {
         public const string Author = "Viliger";
         public const string Name = nameof(DS1CatacombsPlugin);
-        public const string Version = "1.0.2";
+        public const string Version = "1.0.3";
         public const string GUID = Author + "." + Name;
 
         public static ConfigEntry<bool> EnableShitpostMusic;
@@ -75,12 +75,6 @@ namespace DS1Catacombs
             orig(self);
             AkSoundEngine.PostEvent("DS1_Play_Music_System", self.gameObject);
         }
-
-        //private void MusicController_Start(On.RoR2.MusicController.orig orig, MusicController self)
-        //{
-        //    orig(self);
-        //    AkSoundEngine.PostEvent("DS1_Play_Music_System", self.gameObject);
-        //}
 
         private void Destroy()
         {

@@ -1,14 +1,13 @@
 {
     "name": "Catacombs",
     "author": "Viliger",
-    "version_number": "1.0.2",
+    "version_number": "1.0.3",
     "website_url": "https://github.com/viliger2/RoR2_Catacombs",
     "description": "Ancient Lemurian burial ground. It was a mistake to crashland here...",
     "dependencies": [
         "bbepis-BepInExPack-5.4.2113",
         "RiskofThunder-HookGenPatcher-1.2.3",
-        "RiskofThunder-R2API_Stages-1.0.1",
         "RiskofThunder-R2API_Director-2.1.0",
-        "JaceDaDorito-LocationsOfPrecipitation-1.1.0"
+        "JaceDaDorito-LocationsOfPrecipitation-1.1.2"
     ]
 }

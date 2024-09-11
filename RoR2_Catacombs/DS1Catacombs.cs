@@ -175,17 +175,25 @@ namespace DS1Catacombs.Content
                 CreateNetworkSoundEventDef("DS1_Wall_Destroy"),
             });
 
-            DS1BazaarSeer = StageRegistration.MakeBazaarSeerMaterial(DS1ScenePreviewSprite.texture);
+            var bazaarSeerMaterial = UnityEngine.Object.Instantiate(Addressables.LoadAssetAsync<Material>("RoR2/Base/bazaar/matBazaarSeerWispgraveyard.mat").WaitForCompletion());
+            bazaarSeerMaterial.mainTexture = DS1ScenePreviewSprite.texture;
+
             DS1SceneDef.previewTexture = DS1ScenePreviewSprite.texture;
-            DS1SceneDef.portalMaterial = DS1BazaarSeer;
+            DS1SceneDef.portalMaterial = bazaarSeerMaterial;
 
             // Uncomment this if you don't want to use Wwise + Unity integration
             // but you will need SoundAPI for this
             SetupMusic();
 
-            StageRegistration.RegisterSceneDefToLoop(DS1SceneDef);
+            var normalSceneCollection = Addressables.LoadAssetAsync<SceneCollection>("RoR2/Base/SceneGroups/sgStage2.asset").WaitForCompletion();
+            HG.ArrayUtils.ArrayAppend(ref normalSceneCollection._sceneEntries, new SceneCollection.SceneEntry { sceneDef = DS1SceneDef, weight = 1f });
+            DS1SceneDef.destinationsGroup = Addressables.LoadAssetAsync<SceneCollection>("RoR2/Base/SceneGroups/sgStage3.asset").WaitForCompletion();
 
-            Log.Debug(DS1SceneDef.destinationsGroup);
+            var loopSceneCollection = Addressables.LoadAssetAsync<SceneCollection>("RoR2/Base/SceneGroups/loopSgStage2.asset").WaitForCompletion();
+            HG.ArrayUtils.ArrayAppend(ref loopSceneCollection._sceneEntries, new SceneCollection.SceneEntry { sceneDef = DS1SceneDef, weight = 1f });
+            DS1SceneDef.loopedDestinationsGroup = Addressables.LoadAssetAsync<SceneCollection>("RoR2/Base/SceneGroups/loopSgStage3.asset").WaitForCompletion();
+
+            //Log.Debug(DS1SceneDef.destinationsGroup);
         }
 
         //private static void AddDireseekerToADCCS(ref AddressableDirectorCardCategorySelection adccs)
