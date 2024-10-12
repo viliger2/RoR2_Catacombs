@@ -128,6 +128,31 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="DS1_Ambiance_Play" ID="{56E73E33-FF76-4EE9-BD98-C362413DB6B5}">
+							<ChildrenList>
+								<Action Name="" ID="{DF49107D-1C10-4DB6-A7CF-18788E71D24A}" ShortID="5802861">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance" ID="{5306CEA8-D441-4C45-AE0F-ADCD1CC6D537}" WorkUnitID="{4D12A573-2631-4BAC-8F9A-5BBB4FE22F61}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DS1_Ambiance_Stop" ID="{3774F65A-2A11-4CC3-8226-AA9A3AE3ECD5}">
+							<ChildrenList>
+								<Action Name="" ID="{A027EA87-642F-4BD3-AD80-BE56802DEE1B}" ShortID="886800745">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance" ID="{5306CEA8-D441-4C45-AE0F-ADCD1CC6D537}" WorkUnitID="{4D12A573-2631-4BAC-8F9A-5BBB4FE22F61}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

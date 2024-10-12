@@ -12,13 +12,14 @@ namespace DS1Catacombs
 {
     [BepInPlugin("com.Viliger.DS1Catacombs", "DS1Catacombs", Version)]
     [BepInDependency(R2API.DirectorAPI.PluginGUID)]
+    [BepInDependency(R2API.SoundAPI.PluginGUID)]
     //[BepInDependency(R2API.StageRegistration.PluginGUID)]
     [BepInDependency("com.rob.Direseeker", BepInDependency.DependencyFlags.SoftDependency)]
     public class DS1CatacombsPlugin : BaseUnityPlugin
     {
         public const string Author = "Viliger";
         public const string Name = nameof(DS1CatacombsPlugin);
-        public const string Version = "1.0.3";
+        public const string Version = "1.0.4";
         public const string GUID = Author + "." + Name;
 
         public static ConfigEntry<bool> EnableShitpostMusic;
@@ -63,7 +64,7 @@ namespace DS1Catacombs
 
                 DirectorAPI.Helpers.AddNewMonsterToStage(
                     directorCardHolder,
-                    true,
+                    false,
                     DirectorAPI.Stage.Custom,
                     "catacombs_DS1_Catacombs"
                 );

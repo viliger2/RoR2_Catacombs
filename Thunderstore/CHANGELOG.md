@@ -1,4 +1,14 @@
 <details>
+<summary>1.0.4 </summary>
+
+* Added missing dependencies.
+* Adjustments to the music:
+	* Made Aurora Borealis loop properly by using Returns game files version.
+		* _If someone wants to make looping version of Dies Irae - feel free to contact me. Just don't tell Chris, he will have an aneurysm._
+	* Added fade ins and outs to transitions.
+	* Added exit cue on teleporter being fully charged.
+</details>
+<details>
 <summary>1.0.3 </summary>
 
 * SoTS update.

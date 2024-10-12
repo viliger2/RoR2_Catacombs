@@ -229,7 +229,7 @@ namespace DS1Catacombs.Content
             mainCustomTrack.CustomStates = new List<SoundAPI.Music.CustomMusicTrackDef.CustomState>();
 
             var cstate1 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
-            cstate1.GroupId = 1741660947U; // gathered from the MOD's Init bank txt file
+            cstate1.GroupId = 487602916U; // gathered from the MOD's Init bank txt file
             if (DS1CatacombsPlugin.EnableShitpostMusic.Value)
             {
                 cstate1.StateId = 1661578544U; // Maxwell's theme
@@ -252,7 +252,7 @@ namespace DS1Catacombs.Content
             bossCustomTrack.CustomStates = new List<SoundAPI.Music.CustomMusicTrackDef.CustomState>();
 
             var cstate11 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
-            cstate11.GroupId = 1741660947U; // gathered from the MOD's Init bank txt file
+            cstate11.GroupId = 487602916U; // gathered from the MOD's Init bank txt file
             if (DS1CatacombsPlugin.EnableShitpostMusic.Value)
             {
                 cstate11.StateId = 2399718655U; // ARE YOU READY
