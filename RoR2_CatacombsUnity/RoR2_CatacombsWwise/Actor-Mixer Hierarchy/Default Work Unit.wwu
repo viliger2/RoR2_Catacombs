@@ -163,11 +163,11 @@
 								</Sound>
 								<Sound Name="Ambiance" ID="{5306CEA8-D441-4C45-AE0F-ADCD1CC6D537}" ShortID="1069722437">
 									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
