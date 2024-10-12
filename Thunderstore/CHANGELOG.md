@@ -2,6 +2,7 @@
 <summary>1.0.4 </summary>
 
 * Added missing dependencies.
+* Added ambient sounds.
 * Adjustments to the music:
 	* Made Aurora Borealis loop properly by using Returns game files version.
 		* _If someone wants to make looping version of Dies Irae - feel free to contact me. Just don't tell Chris, he will have an aneurysm._
