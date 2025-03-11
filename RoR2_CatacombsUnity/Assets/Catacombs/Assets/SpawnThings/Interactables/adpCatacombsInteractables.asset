@@ -16,14 +16,39 @@ MonoBehaviour:
   poolCategories:
   - name: Standard
     categoryWeight: 1
-    alwaysIncluded: []
+    alwaysIncluded:
+    - dccs: {fileID: 11400000, guid: a0912dcac4c275447954fee63685ed46, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      weight: 1
     includedIfConditionsMet:
-    - dccs: {fileID: 11400000, guid: 74692d391b3c4c54a97b2d7be3f0d1df, type: 2}
+    - dccs: {fileID: 11400000, guid: de9140c26700d13409a71f48bfe27ced, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      weight: 1
+      requiredExpansions: []
+    - dccs: {fileID: 11400000, guid: 8dad5ac569c0fbc4b96a59a69278f355, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
       weight: 1
       requiredExpansions:
       - _asset: {fileID: 0}
         _address: RoR2/DLC1/Common/DLC1.asset
         _useDirectReference: 0
-    includedIfNoConditionsMet:
-    - dccs: {fileID: 11400000, guid: bd5768dfccf59654d8a2fa35c97a1dd4, type: 2}
+    - dccs: {fileID: 11400000, guid: 43f02a6c7061e284aae94e8f06abbd50, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
       weight: 1
+      requiredExpansions:
+      - _asset: {fileID: 0}
+        _address: RoR2/DLC2/Common/DLC2.asset
+        _useDirectReference: 0
+    includedIfNoConditionsMet: []

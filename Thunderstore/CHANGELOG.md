@@ -1,4 +1,11 @@
 <details>
+<summary>1.1.0 </summary>
+
+* Swapped majority of shaders from Standard to SnowTopped so decals would render.
+* Adjusted upper part floor colliders, so characters and interactables would no longer float.
+* Redid DCCS to account for SoTS Phase 2 changes.
+</details>
+<details>
 <summary>1.0.4 </summary>
 
 * Added missing dependencies.

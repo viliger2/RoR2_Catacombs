@@ -16,36 +16,72 @@ MonoBehaviour:
   poolCategories:
   - name: Standard
     categoryWeight: 0.98
-    alwaysIncluded: []
+    alwaysIncluded:
+    - dccs: {fileID: 11400000, guid: 9239406507d72fe40804786cf529457b, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      weight: 1
     includedIfConditionsMet:
     - dccs: {fileID: 11400000, guid: 38efe8a6912890b4790a97834f440ddb, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
       weight: 1
       requiredExpansions:
       - _asset: {fileID: 0}
         _address: RoR2/DLC1/Common/DLC1.asset
         _useDirectReference: 0
-    includedIfNoConditionsMet:
-    - dccs: {fileID: 11400000, guid: 9239406507d72fe40804786cf529457b, type: 2}
+    - dccs: {fileID: 11400000, guid: 809a0f5bbce858349803c2fe65a6c2e8, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
       weight: 1
+      requiredExpansions:
+      - _asset: {fileID: 0}
+        _address: RoR2/DLC2/Common/DLC2.asset
+        _useDirectReference: 0
+    - dccs: {fileID: 11400000, guid: f498f9008d182674e86332a16e6537de, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      weight: 1
+      requiredExpansions: []
+    includedIfNoConditionsMet: []
   - name: Family
     categoryWeight: 0.02
     alwaysIncluded: []
     includedIfConditionsMet:
-    - dccs: {fileID: 11400000, guid: b3dbf8ec74596ea4e960b00dbaa5a70c, type: 2}
+    - dccs: {fileID: 0}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: RoR2/Base/Common/dccsLemurianFamily.asset
+        _useDirectReference: 0
       weight: 1
       requiredExpansions: []
-    - dccs: {fileID: 11400000, guid: 53712f251b062d348abc4e0aeb2baa29, type: 2}
+    - dccs: {fileID: 0}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: RoR2/Base/Common/dccsBeetleFamily.asset
+        _useDirectReference: 0
       weight: 1
       requiredExpansions: []
-    - dccs: {fileID: 11400000, guid: 98651933e89e59b4aac70b3798efbae9, type: 2}
+    - dccs: {fileID: 0}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: RoR2/Base/Common/dccsWispFamily.asset
+        _useDirectReference: 0
       weight: 1
       requiredExpansions: []
-    includedIfNoConditionsMet: []
-  - name: Void Invasion
-    categoryWeight: 0.02
-    alwaysIncluded: []
-    includedIfConditionsMet:
-    - dccs: {fileID: 11400000, guid: f5542632215a3ee4ba2ac27ec5633232, type: 2}
+    - dccs: {fileID: 0}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: RoR2/DLC1/Common/dccsVoidFamily.asset
+        _useDirectReference: 0
       weight: 1
       requiredExpansions:
       - _asset: {fileID: 0}
