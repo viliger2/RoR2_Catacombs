@@ -140,7 +140,7 @@ Material:
     - _Cull: 2
     - _Cutoff: 0.5
     - _DecalLayer: 0
-    - _Depth: 0
+    - _Depth: 1
     - _DetailNormalMapScale: 1
     - _DirtBias: 0
     - _DirtOn: 0
@@ -193,10 +193,10 @@ Material:
     - _SliceHeight: 5
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
-    - _SnowBias: 0
+    - _SnowBias: -1
     - _SnowOn: 0
     - _SnowSmoothness: 0
-    - _SnowSpecularExponent: 1
+    - _SnowSpecularExponent: 0
     - _SnowSpecularStrength: 0
     - _SpecularExponent: 1
     - _SpecularHighlights: 1
