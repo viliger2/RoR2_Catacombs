@@ -37,39 +37,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Golem/cscGolem.asset
-        _useDirectReference: 0
-      selectionWeight: 1
-      spawnDistance: 0
-      preventOverhead: 0
-      minimumStageCompletions: 0
-      requiredUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-      forbiddenUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-    - spawnCard:
-        _asset: {fileID: 0}
-        _address: RoR2/Base/Beetle/cscBeetleGuard.asset
-        _useDirectReference: 0
-      selectionWeight: 1
-      spawnDistance: 0
-      preventOverhead: 0
-      minimumStageCompletions: 0
-      requiredUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-      forbiddenUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-    - spawnCard:
-        _asset: {fileID: 0}
-        _address: RoR2/Base/LemurianBruiser/cscLemurianBruiser.asset
+        _address: RoR2/Base/BeetleGuard/cscBeetleGuard.asset
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -86,38 +54,6 @@ MonoBehaviour:
     selectionWeight: 4
   - name: BasicMonsters
     cards:
-    - spawnCard:
-        _asset: {fileID: 0}
-        _address: RoR2/Base/Lemurian/cscLemurian.asset
-        _useDirectReference: 0
-      selectionWeight: 2
-      spawnDistance: 0
-      preventOverhead: 0
-      minimumStageCompletions: 0
-      requiredUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-      forbiddenUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-    - spawnCard:
-        _asset: {fileID: 0}
-        _address: RoR2/Base/Beetle/cscBeetle.asset
-        _useDirectReference: 0
-      selectionWeight: 2
-      spawnDistance: 0
-      preventOverhead: 0
-      minimumStageCompletions: 0
-      requiredUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-      forbiddenUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
     - spawnCard:
         _asset: {fileID: 0}
         _address: RoR2/DLC1/AcidLarva/cscAcidLarva.asset

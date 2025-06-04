@@ -24,18 +24,42 @@ MonoBehaviour:
   nameToken: CATACOMBS_MAP_DS1_CATACOMBS_NAME
   subtitleToken: CATACOMBS_MAP_DS1_CATACOMBS_SUBTITLE
   previewTexture: {fileID: 2800000, guid: f7de74c9552392943b30f1f23ee4423b, type: 3}
+  previewTextureReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
   portalMaterial: {fileID: 0}
+  portalMaterialReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
   portalSelectionMessageString: CATACOMBS_BAZAAR_SEER_DS1_CATACOMBS
   shouldIncludeInLogbook: 1
   loreToken: CATACOMBS_MAP_DS1_CATACOMBS_LORE
-  dioramaPrefab: {fileID: 311249932813750508, guid: b6200dbecb1444d4ea80d7a11b6b540b,
-    type: 3}
-  mainTrack: {fileID: 11400000, guid: 1cd743e5b1f74e645a63a95fdf2ea938, type: 2}
-  bossTrack: {fileID: 11400000, guid: d8d01e28f54454441830677d27f97b70, type: 2}
+  dioramaPrefab: {fileID: 311249932813750508, guid: b6200dbecb1444d4ea80d7a11b6b540b, type: 3}
+  dioramaPrefabAddress:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+  mainTrack: {fileID: 0}
+  bossTrack: {fileID: 0}
+  environmentColor: {r: 0.17254902, g: 0.15294118, b: 0.098039225, a: 1}
+  hasSafeStart: 0
   suppressPlayerEntry: 0
   suppressNpcEntry: 0
   blockOrbitalSkills: 0
   validForRandomSelection: 1
+  allowItemsToSpawnObjects: 0
+  preventStageAdvanceCounter: 0
+  needSkipDevotionRespawn: 0
   destinationsGroup: {fileID: 0}
+  loopedDestinationsGroup: {fileID: 0}
+  shouldUpdateSceneCollectionAfterLooping: 0
+  isLockedBeforeLooping: 0
+  loopedSceneDef: {fileID: 0}
   destinations: []
   preferredPortalPrefab: {fileID: 0}
+  portalPrefabAddress:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 

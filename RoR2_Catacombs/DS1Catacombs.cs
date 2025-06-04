@@ -27,14 +27,10 @@ namespace DS1Catacombs.Content
 
         public static SceneDef DS1SceneDef;
         internal static Sprite DS1ScenePreviewSprite;
-        internal static Material DS1BazaarSeer;
 
         public static GameObject FracturedWall;
 
         public static List<Material> SwappedMaterials = new List<Material>(); //debug
-
-        //private static AddressableDirectorCardCategorySelection monstersVanilla;
-        //private static AddressableDirectorCardCategorySelection monstersDLC1;
 
         public static Dictionary<string, string> ShaderLookup = new Dictionary<string, string>()
         {
@@ -155,20 +151,6 @@ namespace DS1Catacombs.Content
 
             contentPack.entityStateTypes.Add(new Type[] { typeof(DS1Catacombs.DestructibleWallDeath) });
 
-            // it doesn't work for who knows what reason
-            //yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<AddressableDirectorCardCategorySelection[]>)((assets) =>
-            //{
-            //    if (DireseekerCompat.enabled)
-            //    {
-            //        Log.Message("Direseeker is installed. Adding him to spawn pools.");
-            //        monstersVanilla = assets.First(adccs => adccs.name == "adccsCatacombsMonsters");
-            //        monstersDLC1 = assets.First(adccs => adccs.name == "adccsCatacombsMonstersDLC1");
-
-            //        AddDireseekerToADCCS(ref monstersVanilla);
-            //        AddDireseekerToADCCS(ref monstersDLC1);
-            //    }
-            //}));
-
             contentPack.networkSoundEventDefs.Add(new NetworkSoundEventDef[] {
                 CreateNetworkSoundEventDef("DS1_Vamos_Focus"),
                 CreateNetworkSoundEventDef("DS1_Vamos_Begone"),
@@ -192,34 +174,7 @@ namespace DS1Catacombs.Content
             var loopSceneCollection = Addressables.LoadAssetAsync<SceneCollection>("RoR2/Base/SceneGroups/loopSgStage2.asset").WaitForCompletion();
             HG.ArrayUtils.ArrayAppend(ref loopSceneCollection._sceneEntries, new SceneCollection.SceneEntry { sceneDef = DS1SceneDef, weight = 1f });
             DS1SceneDef.loopedDestinationsGroup = Addressables.LoadAssetAsync<SceneCollection>("RoR2/Base/SceneGroups/loopSgStage3.asset").WaitForCompletion();
-
-            //Log.Debug(DS1SceneDef.destinationsGroup);
         }
-
-        //private static void AddDireseekerToADCCS(ref AddressableDirectorCardCategorySelection adccs)
-        //{
-        //    for (int i = 0; i < adccs.categories.Length; i++)
-        //    {
-        //        var category = adccs.categories[i];
-        //        if (category.name.Equals("Champions"))
-        //        {
-        //            Log.Debug("found champions");
-        //            ArrayUtils.ArrayAppend(ref category.cards, new AddressableDirectorCard
-        //            {
-        //                spawnCard = new R2API.AddressReferencedAssets.AddressReferencedSpawnCard(DireseekerCompat.GetDireseekerSpawnCard()),
-        //                selectionWeight = 3,
-        //                spawnDistance = DirectorCore.MonsterSpawnDistance.Standard,
-        //                preventOverhead = false,
-        //                minimumStageCompletions = 5
-        //            });
-        //            foreach(var card in category.cards)
-        //            {
-        //                Log.Debug(card.spawnCard);
-        //            }
-        //            break;
-        //        }
-        //    }
-        //}
 
         private static void SetupMusic()
         {

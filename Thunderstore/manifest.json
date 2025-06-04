@@ -1,7 +1,7 @@
 {
     "name": "Catacombs",
     "author": "Viliger",
-    "version_number": "1.1.1",
+    "version_number": "1.1.2",
     "website_url": "https://github.com/viliger2/RoR2_Catacombs",
     "description": "Ancient Lemurian burial ground. It was a mistake to crashland here...",
     "dependencies": [

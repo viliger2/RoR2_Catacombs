@@ -1,4 +1,9 @@
 <details>
+<summary>1.1.2 </summary>
+
+* 1.3.9 update.
+</details>
+<details>
 <summary>1.1.1 </summary>
 
 * Fixed an issue that could potentially lead to upper part of the map (and maybe even SnowTopper materials on other custom maps) rendering black or rendering with incorrect values.

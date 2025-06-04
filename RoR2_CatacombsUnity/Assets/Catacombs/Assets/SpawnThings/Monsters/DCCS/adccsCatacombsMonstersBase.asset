@@ -34,7 +34,7 @@ MonoBehaviour:
         _useDirectReference: 0
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Beetle/cscBeetleQueen.asset
+        _address: RoR2/Base/BeetleQueen/cscBeetleQueen.asset
         _useDirectReference: 0
       selectionWeight: 3
       spawnDistance: 0
