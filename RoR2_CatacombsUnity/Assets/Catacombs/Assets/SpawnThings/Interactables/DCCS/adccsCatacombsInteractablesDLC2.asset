@@ -18,7 +18,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/CommandChest/iscCommandChest.asset
+        _address: 81a57bd62977f054a9c1d0a95df98983
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -28,16 +28,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 45
   - name: Shrines
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/ShrineCleanse/iscShrineCleanse.asset
+        _address: 0e9fa8318758d0847b2e0d73f62b85c2
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -47,16 +49,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 10
   - name: Drones
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Drones/iscBrokenFlameDrone.asset
+        _address: 592ddd0e913440844b42eff65663abda
         _useDirectReference: 0
       selectionWeight: 2
       spawnDistance: 0
@@ -66,16 +70,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 14
   - name: Storm Stuff
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/DLC2/iscShrineHalcyonite.asset
+        _address: 0fc0fd67b3dab9645acb561484c72d28
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -85,8 +91,10 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 1.5

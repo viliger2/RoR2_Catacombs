@@ -10,38 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 2099981080, guid: 45feadaaa90b2d2217207fb8b533753e, type: 3}
-  m_Name: adccsCatacombsMonstersDLC2
+  m_Name: adccsCatacombsInteractablesDLC3
   m_EditorClassIdentifier: 
-  targetCardCategorySelection: {fileID: 11400000, guid: 8c2d0a54f33945c48a2fcc566a0f5c1d, type: 2}
+  targetCardCategorySelection: {fileID: 11400000, guid: fe18553de6420974dbab9ab3908d1a3f, type: 2}
   categories:
-  - name: Champions
+  - name: Chests
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: b79fc0712303aa54c9d50ab51987a66e
+        _address: 6df786822d3105e4e820c69e1ef94d16
         _useDirectReference: 0
-      selectionWeight: 3
-      spawnDistance: 0
-      preventOverhead: 0
-      minimumStageCompletions: 5
-      requiredUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-        _canLoadFromCatalog: 1
-      forbiddenUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-        _canLoadFromCatalog: 1
-    selectionWeight: 2
-  - name: Minibosses
-    cards:
-    - spawnCard:
-        _asset: {fileID: 0}
-        _address: c37e7843a2ab9de42843b70359c0983c
-        _useDirectReference: 0
-      selectionWeight: 1
+      selectionWeight: 4
       spawnDistance: 0
       preventOverhead: 0
       minimumStageCompletions: 0
@@ -49,31 +28,67 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
-        _canLoadFromCatalog: 1
+        _canLoadFromCatalog: 0
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
-        _canLoadFromCatalog: 1
-    selectionWeight: 4
-  - name: BasicMonsters
+        _canLoadFromCatalog: 0
+    selectionWeight: 45
+  - name: Drones
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: 79a0217696fe62f40a8e88f039987a2c
+        _address: 5b6dafbe8f6447e49a151e62961f9f77
         _useDirectReference: 0
-      selectionWeight: 1
+      selectionWeight: 2
       spawnDistance: 0
-      preventOverhead: 1
+      preventOverhead: 0
       minimumStageCompletions: 0
       requiredUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
-        _canLoadFromCatalog: 1
+        _canLoadFromCatalog: 0
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
-        _canLoadFromCatalog: 1
-    selectionWeight: 4
+        _canLoadFromCatalog: 0
+    - spawnCard:
+        _asset: {fileID: 0}
+        _address: f92a522e57b907d4b8585b495e706636
+        _useDirectReference: 0
+      selectionWeight: 2
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 0
+      requiredUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+        _canLoadFromCatalog: 0
+      forbiddenUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+        _canLoadFromCatalog: 0
+    - spawnCard:
+        _asset: {fileID: 0}
+        _address: 2eaec01927ea16245822dcb50080cba3
+        _useDirectReference: 0
+      selectionWeight: 4
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 0
+      requiredUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+        _canLoadFromCatalog: 0
+      forbiddenUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+        _canLoadFromCatalog: 0
+    selectionWeight: 14

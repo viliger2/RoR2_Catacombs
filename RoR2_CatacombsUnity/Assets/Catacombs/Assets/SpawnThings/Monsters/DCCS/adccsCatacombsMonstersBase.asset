@@ -18,7 +18,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Titan/cscTitanGolemPlains.asset
+        _address: 72d5eb2ac7215e14cbf0e7c9841206a5
         _useDirectReference: 0
       selectionWeight: 3
       spawnDistance: 0
@@ -28,13 +28,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/BeetleQueen/cscBeetleQueen.asset
+        _address: 56a5ee1553328b34eb5996e7f77710c9
         _useDirectReference: 0
       selectionWeight: 3
       spawnDistance: 0
@@ -44,16 +46,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 2
   - name: Minibosses
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Golem/cscGolem.asset
+        _address: 7cecbc4df44ec1a4eb3fcbd8c82d9e96
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -63,13 +67,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/LemurianBruiser/cscLemurianBruiser.asset
+        _address: 3f78bcc1024d47f42b6fcde3e19099e7
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -79,16 +85,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 4
   - name: BasicMonsters
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Lemurian/cscLemurian.asset
+        _address: 94ec3e9c9692ff84a99fd8bb1962cbb0
         _useDirectReference: 0
       selectionWeight: 2
       spawnDistance: 0
@@ -98,13 +106,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Beetle/cscBeetle.asset
+        _address: 8289d0aec7c1e7b41bd3b8c8e0a917a5
         _useDirectReference: 0
       selectionWeight: 2
       spawnDistance: 0
@@ -114,16 +124,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 4
   - name: Special
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Scav/cscScav.asset
+        _address: a91a75aa7ea8e954c827db66eefedd98
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -133,8 +145,10 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 1

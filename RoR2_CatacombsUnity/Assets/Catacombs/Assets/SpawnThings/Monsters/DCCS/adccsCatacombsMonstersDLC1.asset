@@ -18,7 +18,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Gravekeeper/cscGravekeeper.asset
+        _address: 72819cda222295d418b16db6439b283b
         _useDirectReference: 0
       selectionWeight: 3
       spawnDistance: 0
@@ -28,16 +28,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 2
   - name: Minibosses
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/BeetleGuard/cscBeetleGuard.asset
+        _address: 03978ad4a8751804a80940d5cfd4038b
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -47,16 +49,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 4
   - name: BasicMonsters
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/DLC1/AcidLarva/cscAcidLarva.asset
+        _address: 3c81aa0604ffbeb40a4ebf7b64e809a5
         _useDirectReference: 0
       selectionWeight: 2
       spawnDistance: 0
@@ -66,8 +70,10 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 4

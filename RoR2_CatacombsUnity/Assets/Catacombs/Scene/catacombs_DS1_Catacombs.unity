@@ -4202,6 +4202,7 @@ MonoBehaviour:
   m_Script: {fileID: -703206264, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceptTeam: -1
   targetElevationTransform: {fileID: 373190197}
   jumpVelocity: {x: 3.5759997, y: 52.496002, z: -11.256}
   time: 2.5
@@ -4209,6 +4210,8 @@ MonoBehaviour:
   onJump:
     m_PersistentCalls:
       m_Calls: []
+  AllowAirControl: 0
+  disableFallDamage: 0
 --- !u!1 &77996965
 GameObject:
   m_ObjectHideFlags: 0
@@ -9405,7 +9408,11 @@ MonoBehaviour:
   resetMonsterCardIfFailed: 1
   maximumNumberToSpawnBeforeSkipping: 6
   eliteBias: 1
+  increaseSpawnDistanceOnFailure: 0
   onSpawnedServer:
+    m_PersistentCalls:
+      m_Calls: []
+  onSpawnedWithDirectorServer:
     m_PersistentCalls:
       m_Calls: []
   combatSquad: {fileID: 0}
@@ -9413,8 +9420,11 @@ MonoBehaviour:
   spawnEffectPrefab: {fileID: 0}
   ignoreTeamSizeLimit: 0
   _monsterCards: {fileID: 0}
+  _backupMonsterCards: {fileID: 0}
   fallBackToStageMonsterCards: 1
+  ActiveEliteDefOverride: {fileID: 0}
   currentSpawnTarget: {fileID: 0}
+  _customPlacementBase: {fileID: 0}
 --- !u!114 &182155435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9451,7 +9461,11 @@ MonoBehaviour:
   resetMonsterCardIfFailed: 1
   maximumNumberToSpawnBeforeSkipping: 6
   eliteBias: 1
+  increaseSpawnDistanceOnFailure: 0
   onSpawnedServer:
+    m_PersistentCalls:
+      m_Calls: []
+  onSpawnedWithDirectorServer:
     m_PersistentCalls:
       m_Calls: []
   combatSquad: {fileID: 0}
@@ -9459,8 +9473,11 @@ MonoBehaviour:
   spawnEffectPrefab: {fileID: 0}
   ignoreTeamSizeLimit: 0
   _monsterCards: {fileID: 0}
+  _backupMonsterCards: {fileID: 0}
   fallBackToStageMonsterCards: 1
+  ActiveEliteDefOverride: {fileID: 0}
   currentSpawnTarget: {fileID: 0}
+  _customPlacementBase: {fileID: 0}
 --- !u!114 &182155436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9478,7 +9495,12 @@ MonoBehaviour:
   eliteBias: 2
   spawnDistanceMultiplier: 6
   teleporterInstance: {fileID: 0}
+  monsterSpawnTargetOverride: {fileID: 0}
   lumerianEgg:
+    spawnCardReference:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
     spawnCard: {fileID: 0}
     selectionWeight: 0
     spawnDistance: 0
@@ -31816,6 +31838,7 @@ MonoBehaviour:
   m_Script: {fileID: -703206264, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceptTeam: -1
   targetElevationTransform: {fileID: 445111573}
   jumpVelocity: {x: -1, y: 64.71333, z: -9.38}
   time: 3
@@ -31823,6 +31846,8 @@ MonoBehaviour:
   onJump:
     m_PersistentCalls:
       m_Calls: []
+  AllowAirControl: 0
+  disableFallDamage: 0
 --- !u!1001 &552097030
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34220,6 +34245,7 @@ MonoBehaviour:
   m_Script: {fileID: -703206264, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceptTeam: -1
   targetElevationTransform: {fileID: 1250007307}
   jumpVelocity: {x: -0.39615414, y: 57.73846, z: 5.2807736}
   time: 2.6
@@ -34227,6 +34253,8 @@ MonoBehaviour:
   onJump:
     m_PersistentCalls:
       m_Calls: []
+  AllowAirControl: 0
+  disableFallDamage: 0
 --- !u!1001 &601117420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38822,6 +38850,7 @@ MonoBehaviour:
   m_Script: {fileID: -703206264, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceptTeam: -1
   targetElevationTransform: {fileID: 429997095}
   jumpVelocity: {x: 4.3909087, y: 47.759087, z: 0.10908647}
   time: 2.2
@@ -38829,6 +38858,8 @@ MonoBehaviour:
   onJump:
     m_PersistentCalls:
       m_Calls: []
+  AllowAirControl: 0
+  disableFallDamage: 0
 --- !u!1 &692812329
 GameObject:
   m_ObjectHideFlags: 0
@@ -64814,6 +64845,7 @@ MonoBehaviour:
   m_Script: {fileID: -703206264, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceptTeam: -1
   targetElevationTransform: {fileID: 1041692971}
   jumpVelocity: {x: 1.8090906, y: 46.495457, z: -12.7909155}
   time: 2.2
@@ -64821,6 +64853,8 @@ MonoBehaviour:
   onJump:
     m_PersistentCalls:
       m_Calls: []
+  AllowAirControl: 0
+  disableFallDamage: 0
 --- !u!1 &1161252986
 GameObject:
   m_ObjectHideFlags: 0
@@ -73435,6 +73469,7 @@ MonoBehaviour:
   m_Script: {fileID: -703206264, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceptTeam: -1
   targetElevationTransform: {fileID: 47777603}
   jumpVelocity: {x: -1, y: 64.71333, z: -9.38}
   time: 3
@@ -73442,6 +73477,8 @@ MonoBehaviour:
   onJump:
     m_PersistentCalls:
       m_Calls: []
+  AllowAirControl: 0
+  disableFallDamage: 0
 --- !u!1 &1320920464
 GameObject:
   m_ObjectHideFlags: 0
@@ -79899,6 +79936,7 @@ MonoBehaviour:
   m_Script: {fileID: -703206264, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceptTeam: -1
   targetElevationTransform: {fileID: 677792067}
   jumpVelocity: {x: 3.5759997, y: 52.496002, z: -11.256}
   time: 2.5
@@ -79906,6 +79944,8 @@ MonoBehaviour:
   onJump:
     m_PersistentCalls:
       m_Calls: []
+  AllowAirControl: 0
+  disableFallDamage: 0
 --- !u!1 &1410644418
 GameObject:
   m_ObjectHideFlags: 0
@@ -98487,13 +98527,16 @@ MonoBehaviour:
   m_Script: {fileID: -703206264, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceptTeam: -1
   targetElevationTransform: {fileID: 1145871910}
-  jumpVelocity: {x: 1.8090906, y: 46.495457, z: -12.7909155}
+  jumpVelocity: {x: 1.8090906, y: 46.027725, z: -12.7909155}
   time: 2.2
   jumpSoundString: 
   onJump:
     m_PersistentCalls:
       m_Calls: []
+  AllowAirControl: 0
+  disableFallDamage: 0
 --- !u!1 &1650333887
 GameObject:
   m_ObjectHideFlags: 0
@@ -101024,6 +101067,7 @@ MonoBehaviour:
   m_Script: {fileID: -703206264, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceptTeam: -1
   targetElevationTransform: {fileID: 1580448489}
   jumpVelocity: {x: 4.3909087, y: 48.086357, z: 0.10908647}
   time: 2.2
@@ -101031,6 +101075,8 @@ MonoBehaviour:
   onJump:
     m_PersistentCalls:
       m_Calls: []
+  AllowAirControl: 0
+  disableFallDamage: 0
 --- !u!1 &1694359699
 GameObject:
   m_ObjectHideFlags: 0
@@ -116474,6 +116520,7 @@ MonoBehaviour:
   m_Script: {fileID: -703206264, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceptTeam: -1
   targetElevationTransform: {fileID: 1439253297}
   jumpVelocity: {x: -0.41200027, y: 56.988, z: 5.4920044}
   time: 2.5
@@ -116481,6 +116528,8 @@ MonoBehaviour:
   onJump:
     m_PersistentCalls:
       m_Calls: []
+  AllowAirControl: 0
+  disableFallDamage: 0
 --- !u!1 &1957186111
 GameObject:
   m_ObjectHideFlags: 0

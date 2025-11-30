@@ -27,7 +27,7 @@ MonoBehaviour:
   m_Name: Files
   m_EditorClassIdentifier: 
   StagingPaths:
-  - <BuildPath>
+  - <LOP_BuildPath>
   includeMetaFiles: 0
   files: []
 --- !u!114 &-2413940800328322127
@@ -87,7 +87,7 @@ MonoBehaviour:
   m_Name: AssemblyDefinitions
   m_EditorClassIdentifier: 
   StagingPaths:
-  - <BuildPathPlugins>
+  - <LOP_BuildPathPlugins>
   definitions:
   - {fileID: 5897886265953266890, guid: 3dea76ef7b65316499c529beedf142c1, type: 3}
 --- !u!114 &114211852988908172
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: AssetBundleDefinitions
   m_EditorClassIdentifier: 
   StagingPaths:
-  - <BuildPathAssets>
+  - <LOP_BuildPathAssets>
   assetBundles:
   - assetBundleName: catacombsassets
     assets:
