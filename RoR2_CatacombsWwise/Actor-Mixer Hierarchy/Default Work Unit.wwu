@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4D12A573-2631-4BAC-8F9A-5BBB4FE22F61}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{4D12A573-2631-4BAC-8F9A-5BBB4FE22F61}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Master Mixer" ID="{6F0DD2CD-ECA8-4535-84F7-6A3619BC57A1}" ShortID="346828767">
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{DB0DCD3C-BA39-4306-AA63-8170166DB32E}" WorkUnitID="{AF46866B-54A0-4730-980A-43D4BDD3278D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A2196D4-EA81-40D8-BC36-1418C19F2F05}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41105748-5103-4D0B-B465-13301964BEBB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Sfx Mixer" ID="{1A836215-584D-4FF9-B072-80F2743BA3EF}" ShortID="289727209">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A2196D4-EA81-40D8-BC36-1418C19F2F05}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41105748-5103-4D0B-B465-13301964BEBB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="focus" ID="{1975C109-C2C1-4023-BEE4-84FC4862F39B}" ShortID="678011561">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A2196D4-EA81-40D8-BC36-1418C19F2F05}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41105748-5103-4D0B-B465-13301964BEBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="focus" ID="{4A5AF87C-9D24-418F-A662-6DEBEE59B01B}">
+											<Language>SFX</Language>
+											<AudioFile>focus.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="557462208"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="focus" ID="{4A5AF87C-9D24-418F-A662-6DEBEE59B01B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DestoryWall" ID="{84EC3064-05C6-43D5-9C79-4A54F0FBDF91}" ShortID="311020091">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A2196D4-EA81-40D8-BC36-1418C19F2F05}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41105748-5103-4D0B-B465-13301964BEBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="wall_destroy" ID="{0334B711-407E-420D-8CC8-D6E8244AFAE4}">
+											<Language>SFX</Language>
+											<AudioFile>wall_destroy.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="843267476"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="wall_destroy" ID="{0334B711-407E-420D-8CC8-D6E8244AFAE4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="begone" ID="{8643B9EB-D7ED-453A-8253-FF7F0B0C0EA2}" ShortID="1000443641">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A2196D4-EA81-40D8-BC36-1418C19F2F05}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41105748-5103-4D0B-B465-13301964BEBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="begone_echo" ID="{52D409B3-8C69-473B-8924-10D05E36407B}">
+											<Language>SFX</Language>
+											<AudioFile>begone_echo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="955331489"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{2302FBB0-549C-44D7-90E8-2244097CF8B9}" ShortID="973548064">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="begone_echo" ID="{52D409B3-8C69-473B-8924-10D05E36407B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="torch" ID="{90A558F3-D7CA-4D7E-93D6-867CC528F4F3}" ShortID="477430177">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="torch" ID="{BFD10FA7-4D33-4432-A2F6-3B7418F047B3}" WorkUnitID="{AF46866B-54A0-4730-980A-43D4BDD3278D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A2196D4-EA81-40D8-BC36-1418C19F2F05}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41105748-5103-4D0B-B465-13301964BEBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="torch" ID="{B0E507ED-FC22-4F18-869C-8F6C68941A1E}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="30.1664170212766"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>torch.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="587206466"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="torch" ID="{B0E507ED-FC22-4F18-869C-8F6C68941A1E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ambiance" ID="{5306CEA8-D441-4C45-AE0F-ADCD1CC6D537}" ShortID="1069722437">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A2196D4-EA81-40D8-BC36-1418C19F2F05}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41105748-5103-4D0B-B465-13301964BEBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DungeonCrypt" ID="{FEF1B742-FC83-4CBA-A133-AA9843AA4E80}">
+											<Language>SFX</Language>
+											<AudioFile>DungeonCrypt.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="758772423"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DungeonCrypt" ID="{FEF1B742-FC83-4CBA-A133-AA9843AA4E80}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{43117A85-B5E6-459F-A425-0EF2FFD8F96B}" ShortID="939921596">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Volume_SFX" ID="{7A531C76-96D3-4FD4-9D24-1C6284AAEF90}" WorkUnitID="{E034172F-9FE1-42C9-9D64-3576B213F0F2}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{24786A54-B60C-4AA7-A909-CCE1CFD9432B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

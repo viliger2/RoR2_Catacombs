@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	237638913	DS1_Ambiance_Stop			\Default Work Unit\SoundEffects\DS1_Ambiance_Stop	
+	1058096119	DS1_Torch_Stop			\Default Work Unit\SoundEffects\DS1_Torch_Stop	
+	1373399147	DS1_Ambiance_Play			\Default Work Unit\SoundEffects\DS1_Ambiance_Play	
+	2757783661	DS1_Vamos_Focus			\Default Work Unit\SoundEffects\DS1_Vamos_Focus	
+	3033103393	DS1_Torch_Play			\Default Work Unit\SoundEffects\DS1_Torch_Play	
+	4095629465	DS1_Vamos_Begone			\Default Work Unit\SoundEffects\DS1_Vamos_Begone	
+	4294465001	DS1_Wall_Destroy			\Default Work Unit\SoundEffects\DS1_Wall_Destroy	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	557462208	focus	F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsWwise\.cache\Windows\SFX\focus_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\focus		23267
+	587206466	torch	F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsWwise\.cache\Windows\SFX\torch_46302606.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\torch		429021
+	758772423	Ambiance	F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsWwise\.cache\Windows\SFX\DungeonCrypt_FFAC0C2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Ambiance		1031791
+	843267476	DestoryWall	F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsWwise\.cache\Windows\SFX\wall_destroy_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\DestoryWall		39547
+	955331489	begone	F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsWwise\.cache\Windows\SFX\begone_echo_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\begone		13727
+

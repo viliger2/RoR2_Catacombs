@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="727108665" Type="User" Language="SFX" Hash="{E7F8EFE5-5DB5-F846-2BCB-ED6EB207EE4A}">
+			<ShortName>DS1CatacombsMusic</ShortName>
+			<Path>DS1CatacombsMusic.bnk</Path>
+			<Media>
+				<File Id="102603862" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Voices Of The Void Creatura Music (Maxwell's theme) [WmnUPJxfkow].wav</ShortName>
+					<Path>Media/102603862.wem</Path>
+					<CachePath>SFX/Voices Of The Void Creatura Music (Maxwell's theme) [WmnUPJxfkow]_FFAC0C2C.wem</CachePath>
+					<PrefetchSize>3537</PrefetchSize>
+				</File>
+				<File Id="221413259" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Mick &amp; Mack Global Gladiators - Menu Music [X79SaS6TsHs].wav</ShortName>
+					<Path>Media/221413259.wem</Path>
+					<CachePath>SFX/Mick &amp; Mack Global Gladiators - Menu Music [X79SaS6TsHs]_FFAC0C2C.wem</CachePath>
+					<PrefetchSize>2646</PrefetchSize>
+				</File>
+				<File Id="301633543" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>musicStage2.wav</ShortName>
+					<CachePath>SFX/musicStage2_FFAC0C2C.wem</CachePath>
+				</File>
+				<File Id="422191071" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>17 Dies Irae.wav</ShortName>
+					<Path>Media/422191071.wem</Path>
+					<CachePath>SFX/17 Dies Irae_FFAC0C2C.wem</CachePath>
+					<PrefetchSize>5554</PrefetchSize>
+				</File>
+				<File Id="570950443" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>dies_irae_outro.wav</ShortName>
+					<Path>Media/570950443.wem</Path>
+					<CachePath>SFX/dies_irae_outro_FFAC0C2C.wem</CachePath>
+					<PrefetchSize>2790</PrefetchSize>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3276488172" Name="DS1_Pause_Music" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="792781730" Id="580146960"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="487602916" Id="2399718655"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="549431000" Id="0"/>
+											<MediaRefs>
+												<MediaRef Id="221413259"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="487602916" Id="3699353111"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="549431000" Id="655265632"/>
+											<MediaRefs>
+												<MediaRef Id="422191071"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="487602916" Id="3699353111"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="549431000" Id="2044049779"/>
+											<MediaRefs>
+												<MediaRef Id="570950443"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="792781730" Id="89505537"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="487602916" Id="2254536284"/>
+									<MediaRefs>
+										<MediaRef Id="301633543"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="487602916" Id="1661578544"/>
+									<MediaRefs>
+										<MediaRef Id="102603862"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3135759928" Name="DS1_Play_Music_System" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="792781730" Id="580146960"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="487602916" Id="2399718655"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="549431000" Id="0"/>
+											<MediaRefs>
+												<MediaRef Id="221413259"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="487602916" Id="3699353111"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="549431000" Id="655265632"/>
+											<MediaRefs>
+												<MediaRef Id="422191071"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="487602916" Id="3699353111"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="549431000" Id="2044049779"/>
+											<MediaRefs>
+												<MediaRef Id="570950443"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="792781730" Id="89505537"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="487602916" Id="2254536284"/>
+									<MediaRefs>
+										<MediaRef Id="301633543"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="487602916" Id="1661578544"/>
+									<MediaRefs>
+										<MediaRef Id="102603862"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3771715463" Name="DS1_Unpause_Music" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="792781730" Id="580146960"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="487602916" Id="2399718655"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="549431000" Id="0"/>
+											<MediaRefs>
+												<MediaRef Id="221413259"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="487602916" Id="3699353111"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="549431000" Id="655265632"/>
+											<MediaRefs>
+												<MediaRef Id="422191071"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="487602916" Id="3699353111"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="549431000" Id="2044049779"/>
+											<MediaRefs>
+												<MediaRef Id="570950443"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="792781730" Id="89505537"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="487602916" Id="2254536284"/>
+									<MediaRefs>
+										<MediaRef Id="301633543"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="487602916" Id="1661578544"/>
+									<MediaRefs>
+										<MediaRef Id="102603862"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="151362964" Name="playerHealth"/>
+				<GameParameter Id="1010989040" Name="teleporterPlayerStatus"/>
+				<GameParameter Id="3729143042" Name="Volume_MSX"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="487602916" Name="DS1_gameplaySongChoice">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1661578544" Name="MaxwellTheme"/>
+						<State Id="2254536284" Name="AuroraBorealis"/>
+						<State Id="2399718655" Name="AreYouReady"/>
+						<State Id="3699353111" Name="DiesIrae"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="549431000" Name="bossStatus">
+					<States>
+						<State Id="655265632" Name="alive"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2044049779" Name="dead"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="792781730" Name="Music_system">
+					<States>
+						<State Id="89505537" Name="Gameplay"/>
+						<State Id="580146960" Name="Bossfight"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="778026301" Name="SecretLevel"/>
+						<State Id="2607556080" Name="Menu"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{35B0C4D1-FC4E-D339-F359-E0AF6B3FBDE4}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="151362964" Name="playerHealth"/>
+				<GameParameter Id="1010989040" Name="teleporterPlayerStatus"/>
+				<GameParameter Id="3673881719" Name="Volume_SFX"/>
+				<GameParameter Id="3695994288" Name="Volume_Master"/>
+				<GameParameter Id="3729143042" Name="Volume_MSX"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="487602916" Name="DS1_gameplaySongChoice">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1661578544" Name="MaxwellTheme"/>
+						<State Id="2254536284" Name="AuroraBorealis"/>
+						<State Id="2399718655" Name="AreYouReady"/>
+						<State Id="3699353111" Name="DiesIrae"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="549431000" Name="bossStatus">
+					<States>
+						<State Id="655265632" Name="alive"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2044049779" Name="dead"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="792781730" Name="Music_system">
+					<States>
+						<State Id="89505537" Name="Gameplay"/>
+						<State Id="580146960" Name="Bossfight"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="778026301" Name="SecretLevel"/>
+						<State Id="2607556080" Name="Menu"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1550533364" Type="User" Language="SFX" Hash="{6217CDB3-A516-5831-58D4-CCC33B34333F}">
+			<ShortName>DS1CatacombsSounds</ShortName>
+			<Path>DS1CatacombsSounds.bnk</Path>
+			<Media>
+				<File Id="557462208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>focus.wav</ShortName>
+					<CachePath>SFX/focus_D9952F02.wem</CachePath>
+				</File>
+				<File Id="587206466" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>torch.wav</ShortName>
+					<CachePath>SFX/torch_46302606.wem</CachePath>
+				</File>
+				<File Id="758772423" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DungeonCrypt.wav</ShortName>
+					<CachePath>SFX/DungeonCrypt_FFAC0C2C.wem</CachePath>
+				</File>
+				<File Id="843267476" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>wall_destroy.wav</ShortName>
+					<CachePath>SFX/wall_destroy_D9952F02.wem</CachePath>
+				</File>
+				<File Id="955331489" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>begone_echo.wav</ShortName>
+					<CachePath>SFX/begone_echo_D9952F02.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1373399147" Name="DS1_Ambiance_Play" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="758772423"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="237638913" Name="DS1_Ambiance_Stop" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="758772423"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3033103393" Name="DS1_Torch_Play" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="587206466"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1058096119" Name="DS1_Torch_Stop" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="587206466"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4095629465" Name="DS1_Vamos_Begone" DurationType="OneShot" DurationMin="1.3994558" DurationMax="1.3994558">
+					<MediaRefs>
+						<MediaRef Id="955331489"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2757783661" Name="DS1_Vamos_Focus" DurationType="OneShot" DurationMin="2.2602947" DurationMax="2.2602947">
+					<MediaRefs>
+						<MediaRef Id="557462208"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4294465001" Name="DS1_Wall_Destroy" DurationType="OneShot" DurationMin="3.674195" DurationMax="3.674195">
+					<MediaRefs>
+						<MediaRef Id="843267476"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{8FAE91A9-2064-7FBD-DA8A-8AA303F3F3EE}</FileHash>
+</SoundBanksInfo>

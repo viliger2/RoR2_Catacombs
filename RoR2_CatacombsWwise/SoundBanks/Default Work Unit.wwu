@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A448AEAC-388C-4268-8B4D-97142966EF87}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{A448AEAC-388C-4268-8B4D-97142966EF87}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="DS1CatacombsMusic" ID="{079776DC-3998-4F32-B413-A20950DF8F79}">
+					<ObjectInclusionList>
+						<ObjectRef Name="DS1_Music_System" ID="{8E4E7934-96A9-4732-B9BF-80B111F9D39E}" WorkUnitID="{7DB0CF19-9071-4CD6-8DBF-12580D6A050A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="DS1CatacombsSounds" ID="{55B7F534-FC23-4323-90CA-5D6F2AC337E2}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Master Mixer" ID="{6F0DD2CD-ECA8-4535-84F7-6A3619BC57A1}" WorkUnitID="{4D12A573-2631-4BAC-8F9A-5BBB4FE22F61}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

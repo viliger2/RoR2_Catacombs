@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 134
+  controlID: 123
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 868
     height: 1299
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 417
     height: 785
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 22
+  controlID: 54
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 23
+  controlID: 55
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 1275
     height: 785
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -377,37 +377,37 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Catacombs
+    - Assets/Catacombs/Scripts
     m_Globs: []
     m_OriginalText: 
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Catacombs
+  - Assets/Catacombs/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsNew
+  m_LastProjectPath: F:\Projects\RoR2\RoR2_Catacombs\RoR2_CatacombsUnity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 120}
-    m_SelectedIDs: 44931500
-    m_LastClickedID: 1413956
-    m_ExpandedIDs: 000000005092150062921500449315004c931500ae9315004c9515005c9515005e951500969515009a95150000ca9a3bffffff7f
+    m_SelectedIDs: 7a931500
+    m_LastClickedID: 1414010
+    m_ExpandedIDs: 000000005092150062921500f8921500fa921500fc921500fe9215000093150002931500049315000693150000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: DestructibleWall
-      m_OriginalName: DestructibleWall
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 1414460
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -421,7 +421,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000050921500
+    m_ExpandedIDs: 000000005092150062921500f8921500fa921500fc921500fe92150000931500029315000493150006931500
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -551,9 +551,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 88931500
+      m_SelectedIDs: 7a931500
       m_LastClickedID: 0
-      m_ExpandedIDs: 4a98ffff6298ffffe4c5ffffe6d7ffffded9ffffe8faffff346f0000247500005c900000409100004a950000
+      m_ExpandedIDs: e8faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -836,9 +836,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -148.09381, y: 189.60387, z: -494.1063}
+    m_Target: {x: -80.833694, y: 147.35828, z: -546.01154}
     speed: 2
-    m_Value: {x: -148.09381, y: 189.60387, z: -494.1063}
+    m_Value: {x: -80.833694, y: 147.35828, z: -546.01154}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -885,13 +885,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.021144746, y: 0.88344216, z: -0.040055934, w: -0.46634835}
+    m_Target: {x: -0.028696366, y: 0.97078073, z: -0.15149856, w: -0.18388234}
     speed: 2
-    m_Value: {x: -0.02114472, y: 0.8834411, z: -0.040055886, w: -0.46634778}
+    m_Value: {x: -0.028923538, y: 0.9705023, z: -0.1514551, w: -0.18533802}
   m_Size:
-    m_Target: 94.31668
+    m_Target: 112.47439
     speed: 2
-    m_Value: 94.31668
+    m_Value: 112.47439
   m_Ortho:
     m_Target: 0
     speed: 2

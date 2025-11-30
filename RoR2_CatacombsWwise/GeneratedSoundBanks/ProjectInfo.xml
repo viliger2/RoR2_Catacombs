@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="RoR2_Catacombs" GUID="{71A0205A-DFFC-4AB5-9827-12142BC3DA5F}" Generator="2023.1.4.8496"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{F7B4DBA4-4317-4396-948B-DA57F9028055}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{86E75886-832E-441A-A9E2-BB012765EAAC}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{3410FFBA-D5AD-B762-D8F4-B34C1B760DDD}</FileHash>
+</ProjectInfo>
