@@ -1,4 +1,14 @@
 <details>
+<summary>1.1.4 </summary>
+
+* Fixed all Newt Altars always being active.
+</details>
+<details>
+<summary>1.1.3 </summary>
+
+* AC update.
+</details>
+<details>
 <summary>1.1.2 </summary>
 
 * 1.3.9 update.

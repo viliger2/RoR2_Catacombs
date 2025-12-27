@@ -149,7 +149,7 @@ namespace DS1Catacombs.Content
                 contentPack.networkedObjectPrefabs.Add(new GameObject[] { LowerCryptWall });
             }));
 
-            contentPack.entityStateTypes.Add(new Type[] { typeof(DS1Catacombs.DestructibleWallDeath) });
+            contentPack.entityStateTypes.Add(new Type[] { typeof(DS1Catacombs.DestructibleWallDeath), typeof(DS1Catacombs.DestructibleWallMainState) });
 
             contentPack.networkSoundEventDefs.Add(new NetworkSoundEventDef[] {
                 CreateNetworkSoundEventDef("DS1_Vamos_Focus"),
