@@ -1,4 +1,16 @@
 <details>
+<summary>1.2.0 </summary>
+
+* Added original music by Jared Damron a.k.a. Fake Bees.
+  * The track is Possibility of Precipitation - https://www.youtube.com/watch?v=FLKMj1YAuqg
+  * You can find him on [Youtube](https://youtube.com/@jareddamron5977?si=91yxuYNjR1Nonjfg) and @fakebees on Discord
+* With new music track comes new music config.
+  * You can select between Original, Hopoo and Shitpost music tracks. 
+    * Original uses Possibility of Precipitation and Dies Irae
+	* Hopoo uses Aurora Borealis and Dies Irae
+	* Shitpost uses Maxwell Theme and Are You Ready.
+</details>
+<details>
 <summary>1.1.4 </summary>
 
 * Fixed all Newt Altars always being active.

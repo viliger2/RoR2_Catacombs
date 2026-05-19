@@ -10,6 +10,7 @@
 						<State Name="AuroraBorealis" ID="{C57F43D7-6B65-424D-A234-7487CE8DBFC4}"/>
 						<State Name="DiesIrae" ID="{EC065287-4608-4C7B-AF3A-0B8DC687FC0A}"/>
 						<State Name="MaxwellTheme" ID="{950D3229-E4D5-43DF-A230-AAF655BF8FA6}"/>
+						<State Name="PossibilityofPrecipitation" ID="{87B29A21-23CB-4BDE-AA54-A58128E3D23D}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Music_system" ID="{D84DDD61-6928-4D1B-B7C6-B8C48E7B5C28}">

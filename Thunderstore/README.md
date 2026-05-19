@@ -9,6 +9,7 @@ Please send bug reports either by tagging me on Discord in RoR2 Modding server, 
 
 ## Features
 
+  * Completely original gameplay music done by Jared Damron a.k.a. Fake Bees. You can find him on [Youtube](https://youtube.com/@jareddamron5977?si=91yxuYNjR1Nonjfg) and @fakebees on Discord
   * Smaller, more claustrophobic stage, while offering the same interactable count. This is offset by low light and visibility.
   * Unique combination of enemies (vultures, lemurians, wisps and golems).
   * Supports both DLC and Vanilla enemy and interactable pools.
@@ -21,6 +22,7 @@ Please send bug reports either by tagging me on Discord in RoR2 Modding server, 
   * Stage mesh, coffins, flowers, models - Dark Souls 1, property of From Software
   * Torch Fire - https://www.youtube.com/watch?v=QDAjrrLRyTk
   * Torch - https://sketchfab.com/3d-models/torch-simple-305bfb6ea73148a3bcc6e01a046596b8
+  * **Possibility of Precipitation** by **Jared Damron a.k.a. Fake Bees** - https://www.youtube.com/watch?v=FLKMj1YAuqg
   * **Dies Irae** by **Chris Christodoulou** - https://www.youtube.com/watch?v=8DNoXUnaQ9k
   * **Aurora Borealis** by **Chris Christodoulou** - https://www.youtube.com/watch?v=w1lMIXkHYVc
   <details>

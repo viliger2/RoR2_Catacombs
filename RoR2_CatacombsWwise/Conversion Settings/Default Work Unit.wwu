@@ -38,7 +38,7 @@
 					</PropertyList>
 					<ConversionPluginInfoList>
 						<ConversionPluginInfo Platform="Windows">
-							<ConversionPlugin Name="" ID="{203DA028-349E-44AF-BFD9-698654D916EA}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+							<ConversionPlugin Name="" ID="{85E00720-FF3F-474F-A029-79A48C02B104}" PluginName="WEM Opus" CompanyID="0" PluginID="20"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>

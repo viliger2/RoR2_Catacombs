@@ -20,10 +20,17 @@ namespace DS1Catacombs
     {
         public const string Author = "Viliger";
         public const string Name = nameof(DS1CatacombsPlugin);
-        public const string Version = "1.1.4";
+        public const string Version = "1.2.0";
         public const string GUID = Author + "." + Name;
 
-        public static ConfigEntry<bool> EnableShitpostMusic;
+        public enum MusicType
+        {
+            Original,
+            Hopoo,
+            Shitpost
+        }
+
+        public static ConfigEntry<MusicType> MusicTypeConfig;
         public static ConfigEntry<bool> AnyoneCanDestroyWalls;
 
         public static DS1CatacombsPlugin instance;
@@ -36,7 +43,7 @@ namespace DS1Catacombs
             On.RoR2.Networking.NetworkManagerSystemSteam.OnClientConnect += (s, u, t) => { };
 #endif
 
-            EnableShitpostMusic = Config.Bind("Catacombs", "Enable shitpost music", false, "Enables shitpost music.");
+            MusicTypeConfig = Config.Bind("Catacombs", "Music Type", MusicType.Original, "Defines Music Type which will be used. Original will use Possibility of Precipitation and DiesIrae, Hopoo will use AuroraBorealis and DiesIrae, shitpost will be shitpost.");
             AnyoneCanDestroyWalls = Config.Bind("Catacombs", "Anyone can destroy walls", false, "Wall destruction is no longer minor exclusive.");
 
             instance = this;

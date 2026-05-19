@@ -180,18 +180,22 @@ namespace DS1Catacombs.Content
         {
             var mainCustomTrack = ScriptableObject.CreateInstance<SoundAPI.Music.CustomMusicTrackDef>();
             mainCustomTrack.cachedName = "DS1CustomMainMusic";
-            mainCustomTrack.comment = "Aurora Borealis\r\nDS1Catacombs";
+            mainCustomTrack.comment = "Possibility of Precipitation\r\nDS1Catacombs";
             mainCustomTrack.CustomStates = new List<SoundAPI.Music.CustomMusicTrackDef.CustomState>();
 
             var cstate1 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
             cstate1.GroupId = 487602916U; // gathered from the MOD's Init bank txt file
-            if (DS1CatacombsPlugin.EnableShitpostMusic.Value)
+            switch (DS1Catacombs.DS1CatacombsPlugin.MusicTypeConfig.Value)
             {
-                cstate1.StateId = 1661578544U; // Maxwell's theme
-            }
-            else
-            {
-                cstate1.StateId = 2254536284U; // AuroraBorealis
+                case DS1CatacombsPlugin.MusicType.Original:
+                    cstate1.StateId = 2271860078U; // Possibility of Precipitation
+                    break;
+                case DS1CatacombsPlugin.MusicType.Hopoo:
+                    cstate1.StateId = 2254536284U; // AuroraBorealis
+                    break;
+                case DS1CatacombsPlugin.MusicType.Shitpost:
+                    cstate1.StateId = 1661578544U; // Maxwell's theme
+                    break;
             }
             mainCustomTrack.CustomStates.Add(cstate1);
             var cstate2 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
@@ -208,12 +212,15 @@ namespace DS1Catacombs.Content
 
             var cstate11 = new SoundAPI.Music.CustomMusicTrackDef.CustomState();
             cstate11.GroupId = 487602916U; // gathered from the MOD's Init bank txt file
-            if (DS1CatacombsPlugin.EnableShitpostMusic.Value)
+            switch (DS1Catacombs.DS1CatacombsPlugin.MusicTypeConfig.Value)
             {
-                cstate11.StateId = 2399718655U; // ARE YOU READY
-            } else 
-            { 
-                cstate11.StateId = 3699353111U; // DiesIrae
+                case DS1CatacombsPlugin.MusicType.Original:
+                case DS1CatacombsPlugin.MusicType.Hopoo:
+                    cstate11.StateId = 3699353111U; // DiesIrae
+                    break;
+                case DS1CatacombsPlugin.MusicType.Shitpost:
+                    cstate11.StateId = 2399718655U; // ARE YOU READY
+                    break;
             }
 
             bossCustomTrack.CustomStates.Add(cstate11);
