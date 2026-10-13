@@ -1,4 +1,9 @@
 <details>
+<summary>1.2.1 </summary>
+
+* Added support for DLC4.
+</details>
+<details>
 <summary>1.2.0 </summary>
 
 * Added original music by Jared Damron a.k.a. Fake Bees.

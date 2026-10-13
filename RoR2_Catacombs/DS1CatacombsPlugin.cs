@@ -20,7 +20,7 @@ namespace DS1Catacombs
     {
         public const string Author = "Viliger";
         public const string Name = nameof(DS1CatacombsPlugin);
-        public const string Version = "1.2.0";
+        public const string Version = "1.2.1";
         public const string GUID = Author + "." + Name;
 
         public enum MusicType
