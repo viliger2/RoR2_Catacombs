@@ -167,6 +167,8 @@ namespace DS1Catacombs.Content
             // but you will need SoundAPI for this
             SetupMusic();
 
+            DS1SceneDef.shouldUpdateSceneCollectionAfterLooping = true;
+
             var normalSceneCollection = Addressables.LoadAssetAsync<SceneCollection>("RoR2/Base/SceneGroups/sgStage2.asset").WaitForCompletion();
             HG.ArrayUtils.ArrayAppend(ref normalSceneCollection._sceneEntries, new SceneCollection.SceneEntry { sceneDef = DS1SceneDef, weight = 1f });
             DS1SceneDef.destinationsGroup = Addressables.LoadAssetAsync<SceneCollection>("RoR2/Base/SceneGroups/sgStage3.asset").WaitForCompletion();

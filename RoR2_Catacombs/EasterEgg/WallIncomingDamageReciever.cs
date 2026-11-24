@@ -11,6 +11,10 @@ namespace DS1Catacombs
         public void OnIncomingDamageServer(DamageInfo damageInfo)
         {
             // kill me
+            if (!damageInfo.attacker)
+            {
+                return;
+            }
             if(damageInfo.attacker.name.Contains("MinerBody") || DS1CatacombsPlugin.AnyoneCanDestroyWalls.Value)
             {
                 gameObject.GetComponent<HealthComponent>().Suicide();

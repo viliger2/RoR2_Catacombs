@@ -11,7 +11,7 @@ using UnityEngine;
 namespace DS1Catacombs
 {
     [BepInPlugin("com.Viliger.DS1Catacombs", "DS1Catacombs", Version)]
-    [BepInDependency(R2API.DirectorAPI.PluginGUID)]
+    //[BepInDependency(R2API.DirectorAPI.PluginGUID)]
     [BepInDependency(R2API.SoundAPI.PluginGUID)]
     [BepInDependency("JaceDaDorito.LocationsOfPrecipitation")]
     [BepInDependency("Viliger.RegisterCommandChest")]
@@ -20,7 +20,7 @@ namespace DS1Catacombs
     {
         public const string Author = "Viliger";
         public const string Name = nameof(DS1CatacombsPlugin);
-        public const string Version = "1.2.1";
+        public const string Version = "1.2.2";
         public const string GUID = Author + "." + Name;
 
         public enum MusicType
@@ -55,28 +55,28 @@ namespace DS1Catacombs
             ContentManager.collectContentPackProviders += GiveToRoR2OurContentPackProviders;
             Language.collectLanguageRootFolders += CollectLanguageRootFolders;
 
-            if(DireseekerCompat.enabled)
-            {
-                var directorCardHolder = new DirectorAPI.DirectorCardHolder
-                {
-                    Card = new DirectorCard
-                    {
-                        spawnCard = DireseekerCompat.GetDireseekerSpawnCard(),
-                        selectionWeight = 3,
-                        spawnDistance = DirectorCore.MonsterSpawnDistance.Standard,
-                        preventOverhead = false,
-                        minimumStageCompletions = 5
-                    },
-                    MonsterCategory = DirectorAPI.MonsterCategory.Champions
-                };
+            //if(DireseekerCompat.enabled)
+            //{
+            //    var directorCardHolder = new DirectorAPI.DirectorCardHolder
+            //    {
+            //        Card = new DirectorCard
+            //        {
+            //            spawnCard = DireseekerCompat.GetDireseekerSpawnCard(),
+            //            selectionWeight = 3,
+            //            spawnDistance = DirectorCore.MonsterSpawnDistance.Standard,
+            //            preventOverhead = false,
+            //            minimumStageCompletions = 5
+            //        },
+            //        MonsterCategory = DirectorAPI.MonsterCategory.Champions
+            //    };
 
-                DirectorAPI.Helpers.AddNewMonsterToStage(
-                    directorCardHolder,
-                    false,
-                    DirectorAPI.Stage.Custom,
-                    "catacombs_DS1_Catacombs"
-                );
-            }
+            //    DirectorAPI.Helpers.AddNewMonsterToStage(
+            //        directorCardHolder,
+            //        false,
+            //        DirectorAPI.Stage.Custom,
+            //        "catacombs_DS1_Catacombs"
+            //    );
+            //}
         }
 
         private void MusicController_StartIntroMusic(On.RoR2.MusicController.orig_StartIntroMusic orig, MusicController self)

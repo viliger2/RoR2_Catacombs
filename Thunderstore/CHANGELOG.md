@@ -1,4 +1,10 @@
 <details>
+<summary>1.2.2 </summary>
+
+* Added out of bound teleporters behind coffins.
+* Fixed NRE on secret wall if it is hit by an attack without attacker.
+</details>
+<details>
 <summary>1.2.1 </summary>
 
 * Added support for DLC4.
